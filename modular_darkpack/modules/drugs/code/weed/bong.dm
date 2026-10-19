@@ -67,6 +67,7 @@
 		return ITEM_INTERACT_SUCCESS
 
 /obj/item/bong/attack_self(mob/user)
+	. = ..()
 	var/turf/location = get_turf(user)
 	if(lit)
 		user.visible_message(span_notice("[user]熄灭了[src]。"), span_notice("你熄灭了[src]。"))

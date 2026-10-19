@@ -26,6 +26,7 @@
 		new /datum/data/vending_product("煤", /obj/item/stack/sheet/mineral/coal, 10),
 		new /datum/data/vending_product("布料", /obj/item/stack/sheet/cloth, 5),
 		new /datum/data/vending_product("门维修工具包", /obj/item/door_repair_kit, 300),
+		new /datum/data/vending_product("爆竹", /obj/item/grenade/firecracker, 50),
 		new /datum/data/vending_product("木板", /obj/item/stack/sheet/mineral/wood, 10),
 		new /datum/data/vending_product("铁板", /obj/item/stack/sheet/iron, 10),
 		new /datum/data/vending_product("玻璃板", /obj/item/stack/sheet/glass, 10),

@@ -1,84 +1,102 @@
 2026-10-01:
   JohnFulpWillard:
-  - refactor: Sprinklers have been messed with a bit, please make a bug report if
-      behavior has changed.
+  - refactor: 调整了洒水器系统，如果发现行为异常，
+      请提交错误报告。
 2026-10-02:
   SELFHELL:
-  - rscadd: Remington Arms has had a restock in San-Francisco.
-  - rscadd: New SFX for the 11-87 Shotgun
+  - rscadd: 旧金山的雷明顿军械补充了库存。
+  - rscadd: 为11-87霰弹枪添加了新音效。
 2026-10-03:
   Breadcrombs, CCC23:
-  - bugfix: True Faith crosses now affects everyone regardless of wearing flash protection
-      or not as well as not flashing the user, cooldown on this has also been made
-      to be per item/cross.
+  - bugfix: 真信十字架现在能影响所有人，不再受闪光防护影响，
+      也不会闪到使用者；冷却时间现在
+      由每件物品或十字架独立计算。
   Eagletanker:
-  - sound: 'Friendlyumbra: Added two new music tracks. Lux Umbrae, which plays in
-      the Gaian Caern, and Endron for the Planet, which plays in Pentex facilties.
-      Both are composed and preformed by Friendly Umbra. Go support her! https://youtube.com/@friendlyumbra'
+  - sound: 'Friendlyumbra：添加两首新乐曲。在盖亚圣地播放的《幽影之光》，
+      以及在潘特克斯设施中播放的《安德隆为地球》。
+      两首均由Friendly Umbra作曲并演奏，欢迎支持她！ https://youtube.com/@friendlyumbra'
   FalloutFalcon:
-  - qol: Adds additional clarity if your prefs get adjusted midround
-  - bugfix: Minigame characters are immune to midround pref adjustments
-  - code_imp: Discipline sharing follows the same rules as other midround pref adjustments
-      like diablare
+  - qol: 回合中调整角色偏好时，提示更加明确。
+  - bugfix: 小游戏角色不再受到回合中偏好调整的影响。
+  - code_imp: 律能传授现在遵循与其他回合中偏好调整
+      相同的规则，例如血噬。
   JohnFulpWillard:
-  - bugfix: Malkavians are now insane.
-  - bugfix: Dominate Malkavians and Regular Malkavians now share the same web.
-  - image: Changed splat icons, the pref menu should now open a little faster.
+  - bugfix: 魔卡维现在会正常表现出疯狂。
+  - bugfix: 支配术魔卡维与普通魔卡维现在共享同一个精神网络。
+  - image: 调整了超自然族群图标，角色偏好菜单现在应该能更快打开。
   Stutternov:
-  - rscadd: Adds TG facescarf, TG bandanas, and alternative leather coats to the loadout
-      selection and stores.
+  - rscadd: 在配装选项与商店中加入TG款蒙面围巾、TG款头巾
+      以及其他款式的皮大衣。
   breadcrombs:
-  - qol: Bloodpacks no longer splash when thrown
+  - qol: 血袋被投掷时不再洒出内容物。
   chazzyjazzy:
-  - rscadd: makes the 'academics' stat increase language familiarity
+  - rscadd: 学术属性现在能提高语言熟悉度。
 2026-10-04:
   JohnFulpWillard:
-  - bugfix: Gangrels turning their transformation ability off will now lose their
-      Discipline Active alert.
+  - bugfix: 冈格罗关闭变形能力后，
+      现在会正常移除律能激活提示。
 2026-10-05:
   FalloutFalcon:
-  - rscadd: All werewolf breeds have 3 unique gifts and every tribe now has atleast
-      1 unique gift.
-  - rscadd: Adds new werewolf gifts; Primal Anger, Shed, Apecraft's Blessings, City
-      Running, Master of Fire, Hare's Leap, Heightened Senses, Predator's Arsenal,
-      Falcon's Grasp, Channeling, Sense Magic, Beat of the Heart-Drum
-  - refactor: Rolls output targets are based on a set of flags giving more granular
-      control of targets including based on success
-  - qol: Changes out dice rolls are outputed to be built at the target so the target
-      can use the guestbook name of the mob who rolled
-  - balance: Slipping restraints now uses a system similar to breaking cuffs that
-      uses DEXTERITY + STEALTH to escape
-  - bugfix: Fixes oversight where bonus was not always properly added to dice pool
-      and only displayed visually
-  - code_imp: Rolls pass in an item used in the act if any
-  - code_imp: Cleans up helpers for dice roll values like difficulty
-  - code_imp: All magic items now return a "magic type" datum with information like
-      power or type of magic (e.g blood, spirit, time)
-  - code_imp: Adds effects to represent "lingering magic" left by most gifts or discs.
-  - code_imp: Reworks Fey Sight to detect items based on magic sources they give off
-      rather then all items on a person.
-  - code_imp: Organs track who they were last attached to.
-  - code_imp: adds a generic system for tracking mobs you've examined to be reused
-      for any power that calls for such (Beat of the heart-drum and multiple vampric
-      discs)
+  - rscadd: 所有狼人出身都有3种独特天赋，每个部族现在也至少
+      拥有1种独特天赋。
+  - rscadd: 新增狼人天赋：原始怒意、蜕毛、猿工赐福、城市奔行、
+      驭火之主、野兔之跃、感官强化、掠食者武装、
+      猎隼之握、怒火引导、感知魔法、心鼓之律。
+  - refactor: 掷骰结果的接收对象现在由一组标记决定，可以更精细地
+      控制接收对象，包括按检定成功与否区分。
+  - qol: 掷骰消息现在根据接收者生成，接收者可以看到
+      掷骰者在自己名册中的姓名。
+  - balance: 挣脱束缚现在采用类似扯断手铐的系统，
+      以敏捷加潜行进行逃脱检定。
+  - bugfix: 修复了加值有时只显示出来，
+      却没有真正加入骰池的问题。
+  - code_imp: 掷骰时会传入行动所用的物品（如有）。
+  - code_imp: 整理了难度等掷骰数值的辅助方法。
+  - code_imp: 所有魔法物品现在都会返回魔法类型数据，包含
+      强度和魔法种类等信息，例如鲜血、灵性或时间。
+  - code_imp: 添加效果，用于表示多数天赋或律能留下的残留魔法。
+  - code_imp: 重做妖精视界，按物品散发的魔法源进行探测，
+      不再显示目标身上的所有物品。
+  - code_imp: 器官现在会记录上一次连接的宿主。
+  - code_imp: 添加通用的已观察目标记录系统，供
+      心鼓之律以及多种血族律能等
+      需要记录目标的能力复用。
   Uristthedorf:
-  - bugfix: Serpentis 1 no longer implies that it can mind control you.
+  - bugfix: 蛇形术一级的描述不再暗示其具有精神控制能力。
   breadcrombs:
-  - rscadd: Donning the Mask of Shadows makes those under it's effect harder to examine/inspect
+  - rscadd: 戴上暗影面具现在会使受术者更难被观察或检查。
 2026-10-07:
   breadcrombs:
-  - balance: Vengeful and Coldly Logical have been made conflicting
-  - balance: Iron will can no longer be taken by gargoyles.
-  - bugfix: Enchanting voice now works for the 2 dementation powers that also checked
-      for iron will
-  - bugfix: Bloodheal can no longer remove starting eye quirks
+  - balance: 复仇执念与冷静理性现在互斥。
+  - balance: 石像鬼不再能选择钢铁意志。
+  - bugfix: 魅惑之声现在能正确影响两项同时检查
+      钢铁意志的惑狂术能力。
+  - bugfix: 血疗术不再移除开局的眼部特质。
 2026-10-08:
   JohnFulpWillard:
-  - rscadd: Canadians now come from provinces.
-  - rscadd: You can now make your published phone number persistent for your character.
+  - rscadd: 加拿大角色现在按省份选择出身地。
+  - rscadd: 角色现在可以保存公开的电话号码。
   breadcrombs:
-  - qol: Vampire biting now only checks for if the mouth is covered rather than the
-      face hidden
+  - qol: 吸血鬼咬人现在只检查嘴部是否被遮住，
+      不再检查整张脸是否隐藏。
   chazzyjazzy:
-  - bugfix: fixes is_sabbat helpers not recognizing the ductus or priest as sabbat
-      members
+  - bugfix: 修复了魔宴同盟身份检查无法识别领队或祭司
+      为魔宴成员的问题。
+2026-10-11:
+  chazzyjazzy:
+  - bugfix: 巨力术不再提高物品的基础力度，避免额外增加
+      物品伤害检定的骰子数量。
+2026-10-12:
+  breadcrombs:
+  - balance: 沸血之釜对凡人使用时，每次检定造成的伤害提高。
+2026-10-13:
+  SabbyKat:
+  - balance: 魅惑之声现在会影响威仪术一级敬畏的检定难度。
+2026-10-16:
+  DemoCrack:
+  - bugfix: 修复了勇战术四级不提供伤害减免和光环的问题。
+  - bugfix: 修复了勇战术五级永久增加5点敏捷、近战和斗殴的问题。
+  FalloutFalcon:
+  - rscadd: 新增从十月初持续到万圣节结束的惊悚季。
+  - rscadd: 新增在惊悚季生成南瓜灯的类型。
+  - rscadd: 新增用于封锁犯罪现场的警用警戒带。

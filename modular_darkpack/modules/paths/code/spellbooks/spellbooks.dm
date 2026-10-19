@@ -35,6 +35,7 @@
 		. += span_notice("你可以试着拂去灰尘，看看下面藏着什么。")
 
 /obj/item/path_spellbook/attack_self(mob/living/carbon/human/user)
+	. = ..()
 	if(!istype(user))
 		return FALSE
 

@@ -97,6 +97,11 @@
 	applicable_stats = list(STAT_CHARISMA, STAT_PERFORMANCE)
 	numerical = TRUE
 
+/datum/storyteller_roll/presence_awe/using_difficulty(mob/living/roller, atom/target)
+	. = ..()
+	if(HAS_TRAIT(roller, TRAIT_ENCHANTING_VOICE))
+		. -= 2
+
 // AWE
 /datum/discipline_power/presence/awe
 	name = "敬畏"
@@ -255,7 +260,7 @@
 	apply_presence_overlay(target, successes * 1 MINUTES)
 	to_chat(target, span_hypnophrase("你发现自己彻底为[owner]着迷，心甘情愿地成为其仆从。"))
 	to_chat(target, span_info("你现在心甘情愿地侍奉[owner]。你会设法取悦对方，满足对方的一切愿望，但这股冲动很快就会消退。"))
-	addtimer(CALLBACK(src, PROC_REF(end_entrancement), target), successes * 10 MINUTES)
+	addtimer(CALLBACK(src, PROC_REF(end_entrancement), target), successes * 1 MINUTES) // CRIMSON GRID EDIT - Original: addtimer(CALLBACK(src, PROC_REF(end_entrancement), target), successes * 10 MINUTES)
 
 /datum/discipline_power/presence/entrancement/proc/end_entrancement(mob/living/carbon/human/target)
 	to_chat(target, span_hypnophrase("你想满足[owner]一切愿望的冲动消退了。"))
