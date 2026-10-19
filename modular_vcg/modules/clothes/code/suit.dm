@@ -82,3 +82,18 @@
 	name = "红白赛车夹克"
 	desc = "一件红白双色的日式赛车夹克。"
 	icon_state = "redwhite_racejacket"
+
+// Knight Armor Changes
+
+/obj/item/clothing/suit/armor/riot/knight
+	slowdown = 0.5
+
+/obj/item/clothing/suit/armor/riot/knight/yellow
+	slowdown = 0.5
+
+/obj/item/clothing/suit/armor/riot/knight/blue
+	slowdown = 0.5
+
+/obj/item/clothing/suit/armor/riot/knight/red
+	slowdown = 0.5
+

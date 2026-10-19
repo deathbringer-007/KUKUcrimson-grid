@@ -38,7 +38,7 @@
 /area/vtm/interior/tzimisce_manor)
 "aaF" = (
 /obj/fusebox/transformer{
-	name = "bar transformer"
+	name = "酒吧变压器"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/anarch)
@@ -253,7 +253,7 @@
 	dir = 1
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "ade" = (
@@ -348,7 +348,7 @@
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/kitchen/spoon,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = 4;
 	pixel_y = 6
 	},
@@ -424,7 +424,7 @@
 "afB" = (
 /obj/structure/table/wood,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -6;
 	pixel_y = 10
 	},
@@ -584,7 +584,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/market/window/reinforced,
 /turf/open/floor/plating/rough,
@@ -638,7 +638,7 @@
 	dir = 10
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "aiq" = (
@@ -884,7 +884,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/brick_old,
 /turf/open/floor/plating/rough,
@@ -964,7 +964,7 @@
 "alE" = (
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 6
 	},
@@ -1038,6 +1038,9 @@
 /obj/effect/mapping_helpers/door/access/brujah,
 /turf/open/floor/city/factory,
 /area/vtm/interior)
+"amR" = (
+/turf/open/floor/plating/rough,
+/area/vtm/interior/anarch)
 "amW" = (
 /obj/effect/turf_decal/siding/wood/light{
 	dir = 4
@@ -1623,7 +1626,7 @@
 /area/vtm/interior/caves)
 "atX" = (
 /obj/fusebox/transformer{
-	name = "pantry transformer"
+	name = "食品储藏室变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/cog/pantry)
@@ -1729,7 +1732,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/vampipe{
 	icon_state = "piping31"
@@ -2632,7 +2635,7 @@
 /obj/structure/table,
 /obj/item/vamp/keys/camarilla{
 	accesslocks = list("nosferatu","nosferatu1","nosferatu2","nosferatu3");
-	name = "Master key"
+	name = "万能钥匙"
 	},
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/industrial,
@@ -2981,7 +2984,7 @@
 /area/vtm/interior/sewer)
 "aLO" = (
 /obj/fusebox/transformer{
-	name = "endron transformer"
+	name = "安德隆变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/endron_facility)
@@ -3380,7 +3383,7 @@
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/structure/vampdoor{
-	name = "Operation Room 4"
+	name = "4号手术室"
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
@@ -3650,7 +3653,7 @@
 /obj/structure/table/wood,
 /obj/item/megaphone,
 /obj/item/clothing/mask/whistle{
-	name = "referee whistle";
+	name = "裁判哨";
 	pixel_y = 8;
 	pixel_x = 5
 	},
@@ -3758,7 +3761,7 @@
 	damage_deflection = 60;
 	id = 887;
 	max_integrity = 300;
-	name = "Parking Shutter";
+	name = "停车场卷帘门";
 	dir = 8
 	},
 /obj/effect/landmark/npcwall,
@@ -5107,15 +5110,15 @@
 "bnt" = (
 /obj/structure/table/wood,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_y = 15
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/vjanitor)
 "bnN" = (
 /obj/item/clothing/suit/vampire/jacket/punk{
-	name = "worn leather jacket";
-	desc = "The old and worn leather jacket of a long since dead punk singer. They say he overdosed on coke wearing it."
+	name = "破旧皮夹克";
+	desc = "一位早已去世的朋克歌手留下的破旧皮夹克。据说他穿着这件衣服吸食过量可卡因而死。"
 	},
 /obj/structure/table/wood/fancy/blue,
 /obj/effect/turf_decal/siding/grey{
@@ -5345,7 +5348,7 @@
 "bqd" = (
 /obj/structure/table/wood,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -6;
 	pixel_y = 10
 	},
@@ -5547,7 +5550,7 @@
 "bsC" = (
 /turf/closed/wall/vampwall/rich/old{
 	density = 0;
-	desc = "A wall with a crack in it";
+	desc = "一面有裂缝的墙。";
 	color = "#BBBBBB"
 	},
 /area/vtm/interior/tzimisce_sanctum)
@@ -6002,7 +6005,7 @@
 "bxz" = (
 /obj/structure/table,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -6121,7 +6124,7 @@
 	dir = 8
 	},
 /obj/structure/vampdoor/wood{
-	name = "Office";
+	name = "办公室";
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
@@ -6158,7 +6161,7 @@
 /area/vtm/interior/apartment)
 "bzi" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /obj/effect/spawner/random/maintenance/no_decals/two,
 /turf/open/misc/dirt,
@@ -6286,7 +6289,7 @@
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = 5467;
 	max_integrity = 3500;
-	name = "Warrens";
+	name = "地下巢穴";
 	dir = 8
 	},
 /obj/structure/vampdoor/old{
@@ -6401,7 +6404,7 @@
 "bCy" = (
 /obj/structure/vampdoor/old{
 	dir = 4;
-	name = "Vet Clinic"
+	name = "兽医诊所"
 	},
 /obj/effect/mapping_helpers/door/access/old_clan_tzimisce,
 /obj/effect/mapping_helpers/door/lock,
@@ -7717,7 +7720,7 @@
 /area/vtm/interior/ranger)
 "bSy" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /obj/effect/spawner/random/medical/organs,
 /turf/open/misc/dirt,
@@ -7899,13 +7902,24 @@
 	pixel_x = 6
 	},
 /obj/structure/rack/fruit_stand{
-	name = "rack"
+	name = "货架"
 	},
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/anarch)
 "bUq" = (
 /turf/open/floor/carpet/green,
 /area/vtm/interior/banu)
+"bUt" = (
+/obj/effect/turf_decal/siding/wideplating/dark,
+/obj/machinery/light/small/red/directional/north,
+/obj/item/toy/crayon/white{
+	pixel_y = 13
+	},
+/obj/structure/signboard{
+	pixel_y = 19
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/anarch)
 "bUy" = (
 /turf/open/water/hot_spring,
 /area/vtm/interior/strip)
@@ -8407,7 +8421,7 @@
 /obj/structure/transport/linear/public,
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "Hospital";
-	preset_destination_names = list("2" = "Emergency Room", "3" = "Emergency Room")
+	preset_destination_names = list("2" = "急诊室", "3" = "急诊室")
 	},
 /obj/effect/landmark/transport/transport_id{
 	specific_transport_id = "Hospital"
@@ -8594,7 +8608,7 @@
 /area/vtm/interior/cog/pantry)
 "ccL" = (
 /obj/fusebox/transformer{
-	name = "processing plant transformer"
+	name = "加工厂变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/endron_facility/plant)
@@ -8635,7 +8649,7 @@
 	},
 /obj/machinery/button/door{
 	id = 76;
-	name = "Garage Shutters Control";
+	name = "车库卷帘门控制器";
 	pixel_y = 32;
 	pixel_x = -5
 	},
@@ -8672,7 +8686,7 @@
 	dir = 4
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "cdA" = (
@@ -8790,7 +8804,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/market/window,
 /turf/open/floor/plating/rough,
@@ -8837,7 +8851,7 @@
 "cfp" = (
 /obj/structure/table/wood,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = 6;
 	pixel_y = 10
 	},
@@ -8962,6 +8976,12 @@
 	},
 /turf/open/floor/city/plating,
 /area/vtm/interior/strip)
+"cgq" = (
+/obj/structure/table/wood,
+/obj/machinery/processor,
+/obj/item/knife,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/anarch)
 "cgu" = (
 /obj/effect/decal/pallet,
 /obj/structure/bed/maint{
@@ -9342,9 +9362,9 @@
 /obj/item/clothing/under/vampire/suit/female,
 /obj/item/clothing/under/vampire/suit,
 /obj/item/gun/ballistic/automatic/darkpack/ar15{
-	desc = "This rifle has an official hunting license and 'supposed' modifications. The underclass should keep their heads down.";
+	desc = "这支步枪有正式的狩猎许可证和所谓的改装。底层百姓最好低着头。";
 	masquerade_violating = 0;
-	name = "Licensed AR-15 Carbine"
+	name = "持证AR-15卡宾枪"
 	},
 /obj/item/ammo_box/magazine/darkpack556,
 /obj/item/ammo_box/magazine/darkpack556,
@@ -9658,7 +9678,7 @@
 /obj/structure/table,
 /obj/machinery/button/door{
 	id = 887;
-	name = "Parking Shutters Control";
+	name = "停车场卷帘门控制器";
 	pixel_y = 6
 	},
 /obj/item/reagent_containers/cup/glass/coffee/vampire/robust{
@@ -9704,7 +9724,7 @@
 "cod" = (
 /obj/structure/bed/dogbed,
 /mob/living/basic/pet/cat/darkpack{
-	name = "Belle";
+	name = "贝尔";
 	gender = "female"
 	},
 /turf/open/floor/wood/smooth/old,
@@ -9747,8 +9767,8 @@
 /obj/effect/turf_decal/siding/grey,
 /obj/structure/closet,
 /obj/item/food/grown/cannabis{
-	desc = "Green and TOO smelly... Don't worth so much...";
-	name = "strange green package"
+	desc = "绿油油的，而且臭得过分……值不了几个钱……";
+	name = "奇怪的绿色包裹"
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/police/upstairs)
@@ -9970,7 +9990,7 @@
 /area/vtm/interior/clinic/haven)
 "crZ" = (
 /obj/fusebox/transformer{
-	name = "museum transformer"
+	name = "博物馆变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/museum)
@@ -10100,7 +10120,7 @@
 /area/vtm/interior/clinic)
 "ctb" = (
 /obj/item/paper/fluff{
-	default_raw_text = "When they asked me to concrete up the elevator, I figured it was easy cash. So I opened it up, stepped in, started concreting and.. before you know it.. now im fucking stuck! Who knew an elevator filled with concrete wouldnt go down! I only have my granola bar. I wonder if they can hear me screaming.."
+	default_raw_text = "他们叫我用混凝土封住电梯时，我以为这钱很好赚。于是我打开电梯，走进去开始浇混凝土，然后……一不留神……我他妈就被困住了！谁知道灌满混凝土的电梯竟然不会往下走！我身上只剩一根谷物棒。不知道他们听不听得到我喊救命……"
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/police)
@@ -10399,7 +10419,7 @@
 	dir = 6
 	},
 /obj/item/paper/fluff{
-	default_raw_text = "Local fine dining restaurant the Crown Blue has this week come under investigation for allegedly swapping their meat with plant-based sources. Critics say the taste just isnt the same as when they used to come in and that vegans may have infiltrated the establishments kitchen. More on this story tomorrow at eight."
+	default_raw_text = "本地高档餐厅蓝冠本周因涉嫌用植物原料冒充肉类而接受调查。食客称味道与从前不同，怀疑纯素主义者已经渗透了餐厅后厨。更多详情，请关注明晚八点的报道。"
 	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior)
@@ -10675,7 +10695,7 @@
 /area/vtm/interior/theatre)
 "cza" = (
 /obj/fusebox/transformer{
-	name = "church transformer"
+	name = "教堂变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/church)
@@ -10876,7 +10896,7 @@
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/structure/vampdoor{
-	name = "Foyer"
+	name = "门厅"
 	},
 /obj/effect/turf_decal/siding/grey,
 /obj/effect/turf_decal/siding/grey,
@@ -11224,7 +11244,7 @@
 /obj/effect/turf_decal/siding/grey/inner_corner,
 /obj/structure/table/wood/fancy/blue,
 /obj/item/gun/ballistic/automatic/darkpack/huntrifle{
-	name = "antique rifle";
+	name = "古董步枪";
 	pin = null
 	},
 /turf/open/floor/plating/granite/black,
@@ -11335,7 +11355,7 @@
 "cIO" = (
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 4;
 	pixel_x = -5
@@ -11343,7 +11363,7 @@
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 11;
 	pixel_x = 7
@@ -11393,7 +11413,7 @@
 	},
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/structure/musician/piano{
-	desc = "an elegant piano";
+	desc = "一架优雅的钢琴。";
 	pixel_x = 3;
 	pixel_y = 5
 	},
@@ -11609,20 +11629,20 @@
 /obj/structure/table/wood/fancy/red,
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 10;
 	pixel_x = -5
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 2
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 12
 	},
@@ -12147,7 +12167,7 @@
 /area/vtm/westfield_mall/interior)
 "cTQ" = (
 /obj/fusebox/transformer{
-	name = "strip club transformer"
+	name = "脱衣舞俱乐部变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/strip)
@@ -12592,7 +12612,7 @@
 	},
 /obj/structure/bed/maint{
 	pixel_y = 5;
-	desc = "An old grubby mattress. It smells like wet dog."
+	desc = "一张又旧又脏的床垫，闻起来像湿狗。"
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/cog/caern)
@@ -12969,8 +12989,8 @@
 	dir = 1
 	},
 /obj/structure/fluff/drake_statue{
-	desc = "A Effigy of Kupala, the earth dragon who makes Koldunic Sorcery possible to the Tzimisce. It's abhorently terrifying to look upon.";
-	name = "Effigy of Kupala";
+	desc = "库帕拉的雕像。这位大地之龙使茨密希得以施展古巫术，光是看上一眼就令人毛骨悚然。";
+	name = "库帕拉雕像";
 	pixel_x = -16;
 	pixel_y = 15
 	},
@@ -13075,7 +13095,7 @@
 /obj/item/reagent_containers/condiment/donksauce{
 	pixel_y = 17;
 	pixel_x = 7;
-	name = "\improper O'Tolleys Secret Sauce"
+	name = "\improper 奥托利秘制酱"
 	},
 /obj/underplate{
 	pixel_y = 5
@@ -13139,7 +13159,7 @@
 	dir = 4
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "dhr" = (
@@ -13556,7 +13576,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/retail/gun_store{
 	dir = 1
@@ -13592,20 +13612,20 @@
 "dmk" = (
 /obj/structure/closet,
 /obj/item/clothing/suit/vampire/eod{
-	desc = "SFPD Breacher equipment. Provides best protection against nearly everything.";
-	name = "SFPD EOD suit"
+	desc = "旧金山警察局破门手的装备，几乎能抵御一切威胁。";
+	name = "旧金山警察局排爆服"
 	},
 /obj/item/clothing/suit/vampire/eod{
-	desc = "SFPD Breacher equipment. Provides best protection against nearly everything.";
-	name = "SFPD EOD suit"
+	desc = "旧金山警察局破门手的装备，几乎能抵御一切威胁。";
+	name = "旧金山警察局排爆服"
 	},
 /obj/item/clothing/head/vampire/eod{
-	desc = "Looks ready to butt heads with the hardest of criminals. Provides best protection against nearly everything.";
-	name = "SFPD EOD helmet"
+	desc = "看起来足以与最凶狠的罪犯硬碰硬，几乎能抵御一切威胁。";
+	name = "旧金山警察局排爆头盔"
 	},
 /obj/item/clothing/head/vampire/eod{
-	desc = "Looks ready to butt heads with the hardest of criminals. Provides best protection against nearly everything.";
-	name = "SFPD EOD helmet"
+	desc = "看起来足以与最凶狠的罪犯硬碰硬，几乎能抵御一切威胁。";
+	name = "旧金山警察局排爆头盔"
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
@@ -14066,12 +14086,12 @@
 /obj/item/storage/box/ingredients/vegetarian,
 /obj/item/storage/box/ingredients/carnivore,
 /obj/item/reagent_containers/condiment/milk{
-	name = "full cream milk"
+	name = "全脂牛奶"
 	},
 /obj/item/storage/box/ingredients/american,
 /obj/item/storage/fancy/egg_box,
 /obj/item/reagent_containers/condiment/milk{
-	name = "full cream milk"
+	name = "全脂牛奶"
 	},
 /obj/item/storage/box/ingredients/vegetarian,
 /obj/item/storage/box/ingredients/exotic,
@@ -14676,7 +14696,7 @@
 /area/vtm/interior/giovanni)
 "dzl" = (
 /obj/fusebox/transformer{
-	name = "ghetto transformer"
+	name = "贫民区变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/ghetto)
@@ -15393,7 +15413,7 @@
 /area/vtm/interior/sewer)
 "dJe" = (
 /obj/structure/roadsign/stop{
-	desc = "What is a stop sign doing down here? Is it mocking you?"
+	desc = "停车标志怎么会在这里？它是在嘲笑你吗？"
 	},
 /turf/open/misc/dirt,
 /area/vtm/interior/sewer)
@@ -15646,7 +15666,7 @@
 /obj/structure/transport/linear/public,
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "EndronLab";
-	preset_destination_names = list("2" = "Lower", "3" = "Upper")
+	preset_destination_names = list("2" = "下层", "3" = "上层")
 	},
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/interior/wyrm_corrupted)
@@ -15945,8 +15965,8 @@
 "dPR" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /mob/living/basic/pet/dog/wolf/red{
-	name = "Cuno";
-	desc = "Strange looking dog, he sorta looks lost. Maybe his owners forgot him?"
+	name = "库诺";
+	desc = "一只模样古怪的狗，看起来迷路了。也许主人把它忘了？"
 	},
 /turf/open/misc/dirt,
 /area/vtm/interior/caves)
@@ -16046,25 +16066,25 @@
 	pixel_y = 1;
 	id = 139;
 	pixel_x = -6;
-	name = "Cell 1 shutters"
+	name = "1号牢房卷帘门"
 	},
 /obj/machinery/button/door{
 	pixel_y = 1;
 	id = 138;
 	pixel_x = 4;
-	name = "Cell seperation shutters"
+	name = "牢房隔断卷帘门"
 	},
 /obj/machinery/button/door{
 	pixel_y = 10;
 	id = 137;
 	pixel_x = 4;
-	name = "Cell 2 shutters"
+	name = "2号牢房卷帘门"
 	},
 /obj/machinery/button/door{
 	pixel_y = 10;
 	id = 140;
 	color = "#fc2d2d";
-	name = "Lockdown button";
+	name = "封锁按钮";
 	pixel_x = -6
 	},
 /turf/open/floor/iron/dark/textured,
@@ -16561,7 +16581,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior)
@@ -16746,16 +16766,16 @@
 /obj/item/clothing/shoes/vampire/heels,
 /obj/item/clothing/suit/vampire/vest/army{
 	masquerade_violating = 0;
-	name = "sheriff's vest"
+	name = "治安官背心"
 	},
 /obj/item/clothing/under/vampire/sheriff,
 /obj/item/clothing/under/vampire/sheriff/female,
 /obj/item/clothing/shoes/vampire,
 /obj/item/clothing/glasses/vampire/sun,
 /obj/item/clothing/head/vampire/army{
-	desc = "Looks dangerous. Provides great protection against blunt force. Doesn't break the masquerade";
+	desc = "看起来很危险，能有效抵御钝击，也不会违反避世戒律。";
 	masquerade_violating = 0;
-	name = "sheriff's tactical helmet"
+	name = "治安官战术头盔"
 	},
 /obj/item/stack/dollar/hundred{
 	pixel_y = 4;
@@ -16773,9 +16793,9 @@
 /obj/machinery/light/prince/directional/north,
 /obj/item/katana/vamp{
 	color = "#ccffff";
-	desc = "A flimsy appearing replica katana. It looks quite sharp, despite being an apparent reference to Japanese animation. ";
+	desc = "一把看起来不太结实的仿制武士刀。虽然明显是在致敬日本动画，但刀刃似乎相当锋利。 ";
 	force = 50;
-	name = "Sheriff's special";
+	name = "治安官特制武士刀";
 	pixel_y = 9
 	},
 /obj/item/masquerade_contract,
@@ -16996,7 +17016,7 @@
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/structure/vampdoor{
-	name = "Operation Room 3"
+	name = "3号手术室"
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
@@ -17053,7 +17073,7 @@
 	},
 /obj/structure/table/wood,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = 6;
 	pixel_y = 10
 	},
@@ -17271,12 +17291,12 @@
 /area/vtm/interior/anarch)
 "efg" = (
 /obj/structure/bed/dogbed{
-	desc = "A small pet bed.";
-	name = "pet bed"
+	desc = "一张小巧的宠物床。";
+	name = "宠物床"
 	},
 /mob/living/basic/mouse/gray{
-	desc = "Someone gave it a cookie. Now, it won't leave.";
-	name = "Greg"
+	desc = "有人给了它一块饼干，现在它赖着不走了。";
+	name = "格雷格"
 	},
 /obj/item/food/cookie/raisin{
 	pixel_y = 4;
@@ -17821,7 +17841,7 @@
 /obj/structure/flora/rock/darkpack,
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "window bars";
+	name = "窗户铁栅栏";
 	pixel_y = 32
 	},
 /obj/machinery/light/blacklight/directional/west,
@@ -18015,7 +18035,7 @@
 "enx" = (
 /obj/effect/decal/pallet,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -4;
 	pixel_y = 0
 	},
@@ -18612,7 +18632,7 @@
 	},
 /obj/structure/table,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -18710,7 +18730,7 @@
 /obj/item/vampire_stake,
 /obj/item/radio/headset/darkpack/police,
 /obj/item/vamp/keys/police{
-	name = "Police Consultant keys"
+	name = "警方顾问钥匙"
 	},
 /obj/effect/turf_decal/siding/wood/dark,
 /turf/open/floor/carpet,
@@ -19236,7 +19256,7 @@
 /area/vtm/interior)
 "eEV" = (
 /obj/fusebox/transformer{
-	name = "bank transformer"
+	name = "银行变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/bianchiBank)
@@ -19284,7 +19304,7 @@
 	},
 /obj/machinery/button/door{
 	id = "clinic";
-	name = "Parking Shutters Control";
+	name = "停车场卷帘门控制器";
 	pixel_x = -4;
 	pixel_y = 8
 	},
@@ -19966,7 +19986,7 @@
 /area/vtm/interior)
 "eOW" = (
 /obj/fusebox/transformer{
-	name = "milllennium tower transformer"
+	name = "千禧大厦变压器"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/millennium_tower/f2)
@@ -20363,7 +20383,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/effect/decal/wallpaper/red/low,
 /obj/structure/platform/lowwall/rich/window,
@@ -20545,8 +20565,8 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /mob/living/basic/pet/dog/wolf/black,
 /obj/structure/bed/dogbed{
-	desc = "A small pet bed.";
-	name = "pet bed"
+	desc = "一张小巧的宠物床。";
+	name = "宠物床"
 	},
 /obj/item/dog_bone,
 /obj/effect/turf_decal/darkpack/cave{
@@ -20687,7 +20707,7 @@
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = 5467;
 	max_integrity = 3500;
-	name = "Warrens"
+	name = "地下巢穴"
 	},
 /obj/structure/vampdoor/old,
 /obj/effect/mapping_helpers/door/access/nosferatu,
@@ -20712,8 +20732,8 @@
 "eXB" = (
 /obj/structure/closet/cabinet,
 /obj/item/fireaxe/vamp{
-	desc = "FOR EMERGENCY USES ONLY!";
-	name = "Lucy The Axe"
+	desc = "仅限紧急情况使用！";
+	name = "露西斧"
 	},
 /obj/item/vamp/keys/clinic,
 /obj/item/vamp/keys/clinic,
@@ -21754,7 +21774,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/rich/window,
 /turf/open/floor/plating/rough,
@@ -21997,7 +22017,7 @@
 	pixel_x = 5
 	},
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -8;
 	pixel_y = 10
 	},
@@ -22438,7 +22458,7 @@
 	dir = 9
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "frf" = (
@@ -23342,7 +23362,7 @@
 	},
 /obj/machinery/button/door{
 	id = "111";
-	name = "Garage Shutters Control";
+	name = "车库卷帘门控制器";
 	pixel_y = 32;
 	pixel_x = 6
 	},
@@ -23697,7 +23717,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/westfield_mall/interior)
@@ -24259,7 +24279,7 @@
 /area/vtm/interior/supply)
 "fPi" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /obj/item/dog_bone,
 /turf/open/misc/dirt,
@@ -24292,7 +24312,7 @@
 /area/vtm/interior/cog/caern)
 "fPs" = (
 /obj/fusebox/transformer{
-	name = "jazz club transformer"
+	name = "爵士俱乐部变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/jazzclub)
@@ -24379,7 +24399,7 @@
 /obj/item/vamp/keys/giovanni{
 	accesslocks = list("giovanni","bianchiBank","bankboss");
 	color = "#263068";
-	name = "Bianchi Financial Executive keys"
+	name = "比安基金融主管钥匙"
 	},
 /obj/structure/table/wood/fancy/royalblack,
 /turf/open/floor/carpet/royalblack,
@@ -24401,7 +24421,7 @@
 	},
 /obj/machinery/button/door{
 	id = 433;
-	name = "Parking Shutters Control";
+	name = "停车场卷帘门控制器";
 	pixel_x = -8
 	},
 /obj/item/flashlight/lamp{
@@ -25941,7 +25961,7 @@
 "giy" = (
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B"
 	},
 /obj/structure/table/wood/fancy/red,
@@ -26646,7 +26666,7 @@
 /area/vtm/interior/jazzclub)
 "gsq" = (
 /obj/item/paper/fluff{
-	default_raw_text = "How did you get here? Nevermind that actually. Bomby wuz here."
+	default_raw_text = "你是怎么到这里的？算了，不重要。邦比到此一游。"
 	},
 /turf/open/floor/plating/stone,
 /area/vtm)
@@ -27053,7 +27073,7 @@
 /area/vtm/interior/giovanni)
 "gxI" = (
 /obj/structure/vampdoor/simple{
-	name = "Toilet"
+	name = "厕所"
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
@@ -27172,7 +27192,7 @@
 /area/vtm/interior/sewer)
 "gyM" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /obj/effect/spawner/random/entertainment/coin,
 /turf/open/misc/dirt,
@@ -27627,7 +27647,7 @@
 /area/vtm/interior/setite)
 "gEG" = (
 /obj/structure/vampdoor/glass{
-	name = "Hospital Entrance"
+	name = "医院入口"
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
@@ -27963,8 +27983,8 @@
 "gJz" = (
 /obj/structure/table,
 /obj/item/clothing/glasses/blindfold/white{
-	name = "blindfold";
-	desc = "Covers the eyes, preventing sight."
+	name = "眼罩";
+	desc = "遮住双眼，使人无法视物。"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/endron_facility/plant)
@@ -28059,7 +28079,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/structure/vampdoor/glass{
 	dir = 4;
-	name = "Storage"
+	name = "储藏室"
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 8
@@ -28413,7 +28433,7 @@
 	pixel_y = 6
 	},
 /obj/item/pen/fountain/captain{
-	name = "Golden fountain pen";
+	name = "金色钢笔";
 	pixel_y = 8
 	},
 /turf/open/floor/carpet/purple,
@@ -28642,14 +28662,14 @@
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 6;
 	pixel_x = 7
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B"
 	},
 /turf/open/floor/plating/granite/black,
@@ -28853,10 +28873,10 @@
 /obj/item/gun/ballistic/rifle/darkpack/lever{
 	pixel_y = 5;
 	pin = null;
-	name = "Inert Henry Repeater"
+	name = "失效的亨利连发步枪"
 	},
 /obj/item/gun/ballistic/automatic/darkpack/huntrifle{
-	name = "antique rifle";
+	name = "古董步枪";
 	pixel_y = 17;
 	pin = null
 	},
@@ -29426,7 +29446,7 @@
 "haJ" = (
 /obj/structure/table/wood,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -29653,7 +29673,7 @@
 "hdS" = (
 /obj/structure/table/wood,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -4;
 	pixel_y = 6
 	},
@@ -29753,7 +29773,7 @@
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/structure/vampdoor{
 	dir = 8;
-	name = "Foyer"
+	name = "门厅"
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
@@ -30042,7 +30062,7 @@
 	dir = 8
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "hhO" = (
@@ -30097,7 +30117,7 @@
 	},
 /obj/item/vamp/keys/camarilla{
 	accesslocks = list("malkav","malkav1","malkav2", "fireshelter");
-	name = "Master key";
+	name = "万能钥匙";
 	pixel_y = 5;
 	pixel_x = -7
 	},
@@ -31053,7 +31073,7 @@
 	},
 /obj/effect/turf_decal/darkpack/cave,
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "huo" = (
@@ -31350,7 +31370,7 @@
 /obj/effect/decal/cleanable/trash,
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "window bars";
+	name = "窗户铁栅栏";
 	pixel_y = 32
 	},
 /turf/open/water/vamp_sewer,
@@ -31780,7 +31800,7 @@
 "hDV" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "window bars"
+	name = "窗户铁栅栏"
 	},
 /obj/structure/platform/lowwall/junk/alt/window,
 /turf/open/floor/plating/rough,
@@ -32325,25 +32345,25 @@
 /obj/structure/table/wood/fancy/red,
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B"
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 12;
 	pixel_x = 6
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_x = 8
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 7;
 	pixel_x = 7
@@ -32418,7 +32438,7 @@
 /area/vtm/outside/baywalk)
 "hLQ" = (
 /obj/item/paper/fluff{
-	default_raw_text = "The eye speaks in static, it speaks in static, its so loud, it wont shut up, I cant block it out, I hate it I hate it I hate it I hate it I hate it SHUT UP SHUT UP SHUT UP SHUT UP."
+	default_raw_text = "那只眼睛在杂音中说话，在杂音中说话，太吵了，它不肯闭嘴，我挡不住，我恨它我恨它我恨它我恨它我恨它，闭嘴闭嘴闭嘴闭嘴。"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/sewer/police)
@@ -32544,7 +32564,7 @@
 "hNQ" = (
 /obj/machinery/button/door{
 	id = 435;
-	name = "Parking Shutters Control";
+	name = "停车场卷帘门控制器";
 	pixel_y = 32
 	},
 /turf/open/floor/plating/asphalt,
@@ -32721,7 +32741,7 @@
 "hQn" = (
 /obj/structure/vampdoor{
 	dir = 8;
-	name = "Foyer"
+	name = "门厅"
 	},
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /obj/effect/mapping_helpers/door/access/clinic,
@@ -33026,7 +33046,7 @@
 "hUC" = (
 /obj/structure/vampdoor/old{
 	dir = 4;
-	name = "Vet Clinic"
+	name = "兽医诊所"
 	},
 /obj/effect/mapping_helpers/door/access/old_clan_tzimisce,
 /obj/effect/mapping_helpers/door/lock,
@@ -33057,7 +33077,7 @@
 /obj/item/stack/dollar/hundred,
 /obj/item/stack/dollar/hundred,
 /obj/item/documents{
-	desc = "A stack of papers pertaining to money laundering operations in the city. This should pawn off well.";
+	desc = "一叠与城内洗钱活动有关的文件，应该能典当不少钱。";
 	pixel_y = 12
 	},
 /obj/item/folder/red,
@@ -33388,7 +33408,7 @@
 "hZF" = (
 /obj/structure/table/wood,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = 6;
 	pixel_y = 10
 	},
@@ -33514,7 +33534,7 @@
 /area/vtm/interior/supply)
 "ibl" = (
 /obj/structure/vampdoor/glass{
-	name = "Phlebotomy"
+	name = "采血室"
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
 /obj/effect/mapping_helpers/door/lock,
@@ -33821,28 +33841,28 @@
 /obj/structure/table/wood/fancy/red,
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 9;
 	pixel_x = 4
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 3;
 	pixel_x = 8
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 9;
 	pixel_x = -5
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 2
 	},
@@ -33868,7 +33888,7 @@
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/structure/vampdoor{
-	name = "Operation Room 2"
+	name = "2号手术室"
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
@@ -33946,7 +33966,7 @@
 	damage_deflection = 60;
 	id = 56;
 	max_integrity = 300;
-	name = "Parking Shutter"
+	name = "停车场卷帘门"
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility)
@@ -34704,7 +34724,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/curtain/cloth/fancy/mechanical/luxurious{
 	id = "princecurtain";
@@ -34749,7 +34769,7 @@
 	},
 /obj/item/food/burger/rib{
 	pixel_y = 5;
-	name = "stale mcrib"
+	name = "不新鲜的麦香肋排堡"
 	},
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/museum)
@@ -35345,7 +35365,7 @@
 /area/vtm/interior/giovanni)
 "ius" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /turf/open/misc/dirt,
 /area/vtm/graveyard)
@@ -35403,7 +35423,7 @@
 "iuS" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -4;
 	pixel_y = 6
 	},
@@ -35480,7 +35500,7 @@
 "ivJ" = (
 /obj/structure/table/wood,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -4;
 	pixel_y = 6
 	},
@@ -36203,7 +36223,7 @@
 /obj/machinery/door/poddoor/shutters/armory{
 	damage_deflection = 60;
 	max_integrity = 300;
-	name = "Armory Shutter"
+	name = "军械库卷帘门"
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/vtm/interior/millennium_tower/f2)
@@ -36318,7 +36338,7 @@
 "iFR" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
 /obj/effect/grand_rune/finale{
-	name = "Koldunic ritual site";
+	name = "古巫术仪式场所";
 	pixel_x = -28;
 	pixel_y = 16
 	},
@@ -36327,7 +36347,7 @@
 "iFW" = (
 /obj/structure/table,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_y = 15
 	},
 /turf/open/floor/city/bacotell,
@@ -36605,7 +36625,7 @@
 /area/vtm/outside/forest)
 "iIO" = (
 /obj/fusebox/transformer{
-	name = "shop transformer"
+	name = "商店变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
@@ -37021,7 +37041,7 @@
 	dir = 4;
 	id = "clinic";
 	max_integrity = 200;
-	name = "Parking Shutter"
+	name = "停车场卷帘门"
 	},
 /obj/effect/turf_decal/bordur{
 	dir = 6
@@ -37066,7 +37086,7 @@
 	icon_state = "floor5-old"
 	},
 /mob/living/basic/chicken{
-	name = "Eggsecutor"
+	name = "蛋刑官"
 	},
 /obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/canalplating,
@@ -37150,8 +37170,8 @@
 	dir = 4
 	},
 /obj/item/documents/nanotrasen{
-	desc = "Its a stock market report, dated January 29, 2009. Huntsman Industrial (HI) shows a slight increase, up 2.1% at $58.45. Rorschach Security (RS) experiences a dip, down 1.7% at $23.32. UmbraChem (UC) gains 3.4%, closing at $28.67. Red Talon Corporation (RTC) struggles, falling 0.5% to $85.72. Meanwhile, Petrochem (PC) rises 1.2% to $45.89, while Arctic Technology (AT) drops 2.3% to $40.56. Investors remain wary, keeping a close watch on the energy and industrial sectors.";
-	name = "Stock Market Reports"
+	desc = "一份日期为2009年1月29日的股市报告。猎手工业（HI）小幅上涨2.1%，报58.45美元。罗夏安保（RS）下跌1.7%，报23.32美元。影界化工（UC）上涨3.4%，收于28.67美元。赤爪公司（RTC）表现疲软，下跌0.5%，报85.72美元。与此同时，石油化工公司（PC）上涨1.2%，报45.89美元；极地科技（AT）下跌2.3%，报40.56美元。投资者仍保持谨慎，密切关注能源和工业板块。";
+	name = "股市报告"
 	},
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/millennium_tower/f3)
@@ -37418,7 +37438,7 @@
 /obj/structure/transport/linear/public,
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "EndronCorp";
-	preset_destination_names = list("2" = "Laboratory Access", "3" = "Ground Floor", "4" = "Executive Offices Floor", "5" = "Roof Access")
+	preset_destination_names = list("2" = "实验室入口", "3" = "底层", "4" = "行政办公室楼层", "5" = "屋顶入口")
 	},
 /obj/effect/abstract/elevator_music_zone{
 	linked_elevator_id = "EndronCorp"
@@ -37750,8 +37770,8 @@
 /area/vtm/outside/unionsquare)
 "iZa" = (
 /obj/structure/table/optable{
-	desc = "A cold, hard place for your final rest.";
-	name = "Morgue Slab"
+	desc = "一处冰冷坚硬的地方，供你长眠。";
+	name = "停尸台"
 	},
 /obj/machinery/light/directional/south,
 /turf/open/floor/city/toilet,
@@ -38222,7 +38242,7 @@
 /obj/effect/decal/wallpaper/stone,
 /turf/closed/wall/vampwall/rich/old{
 	density = 0;
-	desc = "A wall with a crack in it";
+	desc = "一面有裂缝的墙。";
 	color = "#BBBBBB"
 	},
 /area/vtm/interior/tzimisce_manor)
@@ -38298,20 +38318,20 @@
 /obj/structure/table/wood/fancy/red,
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 10
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 2;
 	pixel_x = 5
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 7;
 	pixel_x = -5
@@ -38407,9 +38427,9 @@
 /obj/item/fireaxe/vamp{
 	armour_penetration = 40;
 	block_chance = 30;
-	desc = "YOU STUPID BITCH, WHY DON'T YOU TALK?!! HERE'S JOHNY!!!";
+	desc = "你这个蠢婊子，为什么不说话？！约翰尼来啦！！！";
 	force = 35;
-	name = "Brenda"
+	name = "布伦达"
 	},
 /obj/item/toy/dummy{
 	pixel_x = -4
@@ -38675,7 +38695,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/water/vamp_sewer/border,
 /area/vtm/interior/sewer)
@@ -38702,7 +38722,7 @@
 	dir = 1;
 	id = 76;
 	max_integrity = 200;
-	name = "Garage Shutter"
+	name = "车库卷帘门"
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/anarch)
@@ -38838,7 +38858,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/brick_old,
 /turf/open/floor/plating/rough,
@@ -40557,8 +40577,8 @@
 /area/vtm/interior/setite)
 "jFv" = (
 /obj/structure/table/optable{
-	desc = "A cold, hard place for your final rest.";
-	name = "Morgue Slab"
+	desc = "一处冰冷坚硬的地方，供你长眠。";
+	name = "停尸台"
 	},
 /obj/effect/turf_decal/siding/grey,
 /obj/effect/turf_decal/siding/grey{
@@ -40622,7 +40642,7 @@
 /obj/structure/table/wood/fancy/red,
 /obj/item/gun/ballistic/automatic/darkpack/ak74{
 	pin = null;
-	name = "Inert Kalashnikov's Automatic Rifle 47"
+	name = "失效的卡拉什尼科夫47型自动步枪"
 	},
 /obj/structure/window/spawner/directional/west,
 /obj/machinery/light/floor,
@@ -41010,7 +41030,7 @@
 	dir = 1
 	},
 /obj/structure/vampdoor/simple{
-	name = "Morgue"
+	name = "太平间"
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
 /obj/effect/mapping_helpers/door/lock,
@@ -41080,7 +41100,7 @@
 /obj/structure/table/wood,
 /obj/machinery/button/door{
 	id = 5467;
-	name = "Warrens Gate"
+	name = "地下巢穴大门"
 	},
 /obj/structure/platform/lowwall/junk,
 /turf/open/floor/plating/rough,
@@ -41164,7 +41184,7 @@
 	},
 /obj/item/ammo_box/darkpack/c12g,
 /obj/item/paper/fluff{
-	default_raw_text = "I use the shotgun. You know why? Cause the shotgun doesnt miss, and unlike the shitty taser it stops a criminal in their tracks in two hits. Bang, bang, and theyre fucking done. I use four shots just to make damn sure because im not here to coddle a bunch of criminal scum sucking dirtbags. Im there to enforce Cali-fucking-fornian LAW. The shotgun is the superior law enforcement weapon because it stops crime. And it stops crime by reducing the number of criminals roaming the fucking streets."
+	default_raw_text = "我用霰弹枪。知道为什么吗？因为霰弹枪不会打偏，而且跟那破电击枪不同，两枪就能让罪犯当场停下。砰，砰，他妈的完事。我会打四枪以防万一，因为我不是来哄这些吸血吃土的犯罪人渣的。我是来执行他妈的加利福尼亚法律的。霰弹枪是最好的执法武器，因为它能制止犯罪。它制止犯罪的方法，就是减少在他妈的街上游荡的罪犯人数。"
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
@@ -41198,8 +41218,8 @@
 /obj/item/clothing/suit/apron/chef{
 	pixel_y = 0;
 	pixel_x = 6;
-	name = "grillmaster's apron";
-	desc = "A gready and well worn apron, it appears to have faded text of the old graphic 'GRILL MASTER'."
+	name = "烧烤大师围裙";
+	desc = "一条油腻又破旧的围裙，依稀还能看见旧图案上褪色的“烧烤大师”字样。"
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/park)
@@ -42322,6 +42342,7 @@
 	pixel_y = 10;
 	pixel_x = 12
 	},
+/obj/item/pen/fountain,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch)
 "kda" = (
@@ -42356,7 +42377,7 @@
 	color = "#6d6d6d"
 	},
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = 6;
 	pixel_y = 10
 	},
@@ -42879,7 +42900,7 @@
 "kjH" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "window bars"
+	name = "窗户铁栅栏"
 	},
 /obj/structure/platform/lowwall/junk/alt/window,
 /turf/open/floor/plating/rough,
@@ -43823,7 +43844,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/clinic/haven)
@@ -43897,7 +43918,7 @@
 "kvj" = (
 /obj/structure/table/wood,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -6;
 	pixel_y = 10
 	},
@@ -44179,8 +44200,8 @@
 /obj/item/vamp/keys/police,
 /obj/item/vamp/keys/police/secure,
 /obj/item/gun/ballistic/automatic/darkpack/ar15{
-	desc = "A shiny new SFPD Carbine, courtesy of improved budgets and a dire need to clean these streets.";
-	name = "Police Issue CAR-15"
+	desc = "一支崭新的旧金山警察局卡宾枪，得益于增加的预算，以及整顿这些街道的迫切需要。";
+	name = "警用CAR-15卡宾枪"
 	},
 /obj/item/ammo_box/magazine/darkpack556,
 /obj/item/ammo_box/magazine/darkpack556,
@@ -46067,7 +46088,7 @@
 	dir = 8
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "kYi" = (
@@ -46201,7 +46222,7 @@
 /area/vtm/interior/cog/caern)
 "kZS" = (
 /obj/fusebox/transformer{
-	name = "clinic transformer"
+	name = "诊所变压器"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/clinic)
@@ -46875,7 +46896,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
@@ -46982,15 +47003,15 @@
 	},
 /obj/item/vamp/keys{
 	accesslocks = list("axes","laundromat");
-	name = "Shady Chinatown Keys"
+	name = "唐人街隐秘据点钥匙"
 	},
 /obj/item/vamp/keys{
 	accesslocks = list("axes","laundromat");
-	name = "Shady Chinatown Keys"
+	name = "唐人街隐秘据点钥匙"
 	},
 /obj/item/vamp/keys{
 	accesslocks = list("axes","laundromat");
-	name = "Shady Chinatown Keys"
+	name = "唐人街隐秘据点钥匙"
 	},
 /obj/structure/curtain/bounty{
 	icon_state = "bounty-closed";
@@ -47280,7 +47301,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/machinery/sprinkler,
 /turf/open/floor/plating/canal,
@@ -47553,8 +47574,8 @@
 "lpC" = (
 /obj/structure/flora/rock/pile/darkpack,
 /obj/structure/bed/dogbed{
-	desc = "A small pet bed.";
-	name = "pet bed"
+	desc = "一张小巧的宠物床。";
+	name = "宠物床"
 	},
 /mob/living/basic/pet/dog/wolf/brown,
 /obj/effect/mapping_helpers/mob_buckler,
@@ -48377,7 +48398,7 @@
 	},
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/vampipe{
 	icon_state = "piping33";
@@ -48619,7 +48640,7 @@
 	damage_deflection = 60;
 	id = 433;
 	max_integrity = 300;
-	name = "Parking Shutter";
+	name = "停车场卷帘门";
 	dir = 8
 	},
 /turf/open/floor/plating/asphalt,
@@ -48685,7 +48706,7 @@
 /area/vtm/interior/anarch)
 "lFJ" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /obj/item/food/grown/flower/harebell,
 /obj/effect/mob_spawn/corpse/human/skeleton,
@@ -49080,7 +49101,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/water/vamp_sewer/border,
 /area/vtm/interior/police/fed)
@@ -49746,7 +49767,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/rich/window,
 /turf/open/floor/plating/rough,
@@ -49973,19 +49994,19 @@
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B"
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 11;
 	pixel_x = -5
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 6;
 	pixel_x = 7
@@ -50095,8 +50116,8 @@
 "lWC" = (
 /obj/structure/table/wood/fancy/black,
 /obj/item/documents/nanotrasen{
-	desc = "A handful of papers detailing the profits and losses of various Ventrue-owned businesses in the city.";
-	name = "profit and loss reports"
+	desc = "几张详细记录城内各家梵卓企业盈亏的报表。";
+	name = "损益报表"
 	},
 /obj/effect/turf_decal/siding/grey/inner_corner{
 	dir = 8
@@ -50363,13 +50384,13 @@
 /obj/structure/table/wood/fancy/red,
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_x = 8
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 4
 	},
@@ -50420,7 +50441,7 @@
 	pixel_y = 6
 	},
 /obj/item/pen/fountain/captain{
-	name = "Clinic Director's fountain pen";
+	name = "诊所主任钢笔";
 	pixel_x = -9;
 	pixel_y = 9
 	},
@@ -51391,7 +51412,7 @@
 /obj/item/gun/ballistic/rifle/darkpack/lever{
 	pixel_y = 4;
 	pin = null;
-	name = "Inert Henry Repeater";
+	name = "失效的亨利连发步枪";
 	pixel_x = 3
 	},
 /obj/structure/table/wood/fancy/red,
@@ -51959,8 +51980,8 @@
 /obj/machinery/greenscreen_camera{
 	dir = 1;
 	pixel_y = -15;
-	name = "news-caster";
-	desc = "A camera that can be used to display whomever is in front of it across all the city."
+	name = "新闻播报器";
+	desc = "一台摄像机，能把镜头前的任何人播放给全城观看。"
 	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior)
@@ -52418,7 +52439,7 @@
 /area/vtm/outside/baywalk)
 "myR" = (
 /obj/structure/musician/piano{
-	desc = "An elegant piano"
+	desc = "一架优雅的钢琴。"
 	},
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/millennium_tower/f3)
@@ -52772,7 +52793,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/effect/landmark/npcwall,
 /turf/open/water/vamp_sewer/border,
@@ -53027,7 +53048,7 @@
 "mHY" = (
 /obj/structure/table/wood,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -53557,7 +53578,7 @@
 	dir = 4;
 	id = "clinic";
 	max_integrity = 200;
-	name = "Parking Shutter"
+	name = "停车场卷帘门"
 	},
 /obj/effect/turf_decal/bordur{
 	dir = 5
@@ -54288,8 +54309,8 @@
 "mWA" = (
 /obj/structure/table/wood/fancy/royalblack,
 /obj/machinery/bitcoin_miner{
-	name = "money printer";
-	desc = "A machine that is designed to print counterfeit currency with impeccable accuracy, with a monitor connected to it.\nIt has an output for withdrawing the cash obtained from printing, somehow."
+	name = "印钞机";
+	desc = "一台精确印制假钞的机器，连着一台显示器。\n它还有一个取钞口，能把印出来的钱取走，不知是什么原理。"
 	},
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/millennium_tower/f3)
@@ -54368,7 +54389,7 @@
 /area/vtm/interior/endron_facility)
 "mXB" = (
 /obj/fusebox/transformer{
-	name = "manor transformer"
+	name = "庄园变压器"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/tzimisce_manor)
@@ -54379,7 +54400,7 @@
 /area/vtm/interior/giovanni)
 "mXU" = (
 /mob/living/basic/bear/vampire{
-	name = "Bear-ba-yaga"
+	name = "熊巫婆"
 	},
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer)
@@ -54493,7 +54514,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/water/vamp_sewer/border,
 /area/vtm/interior/sewer)
@@ -54620,7 +54641,7 @@
 	dir = 1
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "nat" = (
@@ -54629,7 +54650,7 @@
 /area/vtm/interior/shop)
 "naz" = (
 /obj/fusebox/transformer{
-	name = "baywalk district transformer"
+	name = "海湾步道区变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/outside/baywalk)
@@ -54646,7 +54667,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/museum)
@@ -55171,7 +55192,7 @@
 /area/vtm/outside/park)
 "nia" = (
 /obj/structure/vampdoor/simple{
-	name = "Toilet";
+	name = "厕所";
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
@@ -55198,7 +55219,7 @@
 "nio" = (
 /obj/structure/vampdoor/glass{
 	dir = 4;
-	name = "Storage"
+	name = "储藏室"
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
 /obj/effect/mapping_helpers/door/lock,
@@ -55727,8 +55748,8 @@
 "noX" = (
 /obj/effect/decal/cleanable/litter,
 /obj/structure/reagent_dispensers/cooking_oil{
-	name = "main water line";
-	desc = "A huge tank of water that supplies the local area from the city.";
+	name = "供水主管";
+	desc = "一座巨大的水箱，将城市供水分配到附近地区。";
 	reagent_id = null
 	},
 /obj/structure/vampipe{
@@ -55998,7 +56019,7 @@
 /area/vtm/interior/hotel)
 "nru" = (
 /obj/fusebox/transformer{
-	name = "industrial district transformer"
+	name = "工业区变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/outside/pacificheights/industrial)
@@ -56073,7 +56094,7 @@
 "nsz" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "window bars"
+	name = "窗户铁栅栏"
 	},
 /obj/structure/platform/lowwall/rich/old/window,
 /turf/open/floor/plating/rough,
@@ -56120,7 +56141,7 @@
 /obj/structure/table/wood/fancy/red,
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 3
 	},
@@ -56380,7 +56401,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/brick_old,
 /turf/open/floor/plating/rough,
@@ -56535,7 +56556,7 @@
 "nyz" = (
 /obj/structure/bed/dogbed,
 /mob/living/basic/pet/cat/darkpack{
-	name = "Cheshire";
+	name = "柴郡";
 	gender = "female"
 	},
 /turf/open/floor/wood/smooth/old,
@@ -56696,7 +56717,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/rich/window,
 /turf/open/floor/plating/rough,
@@ -56813,7 +56834,7 @@
 /area/vtm/interior/banu)
 "nBM" = (
 /obj/structure/vampdoor/wood{
-	name = "Directors Office";
+	name = "主管办公室";
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/director,
@@ -56933,7 +56954,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/rich/window,
 /turf/open/floor/plating/rough,
@@ -57076,7 +57097,7 @@
 "nEM" = (
 /turf/closed/wall/vampwall/rich/old{
 	density = 0;
-	desc = "A wall with a crack in it";
+	desc = "一面有裂缝的墙。";
 	color = "#BBBBBB"
 	},
 /area/vtm/interior/giovanni)
@@ -57108,6 +57129,13 @@
 "nFc" = (
 /turf/closed/wall/vampwall/rustbad,
 /area/vtm/interior/sewer)
+"nFg" = (
+/obj/effect/turf_decal/siding/wideplating/dark/corner{
+	dir = 8
+	},
+/obj/structure/extinguisher_cabinet/directional/east,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/anarch)
 "nFl" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -57370,7 +57398,7 @@
 	},
 /obj/effect/turf_decal/darkpack/cave/corner,
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "nJu" = (
@@ -57704,7 +57732,7 @@
 "nNo" = (
 /obj/structure/table,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -57817,7 +57845,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/market/window/reinforced,
 /turf/open/floor/plating/rough,
@@ -57857,8 +57885,8 @@
 /area/vtm/interior/shop)
 "nOV" = (
 /obj/item/instrument/eguitar/vamp{
-	name = "replica guitar";
-	desc = "A classic guitar, of some noteworthy rocker, seemingly signed by them - Likely a fake, to the point even the signature is far too smudged to make out the letters."
+	name = "仿制吉他";
+	desc = "一把著名摇滚歌手风格的经典吉他，似乎还有本人的签名——多半是假货，连签名都模糊得认不出字母。"
 	},
 /obj/structure/table/wood/fancy/blue,
 /obj/effect/turf_decal/siding/grey/inner_corner{
@@ -57973,7 +58001,7 @@
 "nQy" = (
 /obj/structure/table/wood/shuttle_bar,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -6;
 	pixel_y = 2
 	},
@@ -58117,7 +58145,7 @@
 "nSd" = (
 /obj/structure/table/wood,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -6;
 	pixel_y = 10
 	},
@@ -58300,7 +58328,7 @@
 "nUs" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer)
@@ -58460,7 +58488,7 @@
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = 5467;
 	max_integrity = 3500;
-	name = "Warrens"
+	name = "地下巢穴"
 	},
 /obj/structure/vampdoor/old,
 /obj/effect/mapping_helpers/door/access/nosferatu,
@@ -58593,7 +58621,7 @@
 	pixel_y = 6
 	},
 /obj/item/pen/fountain/captain{
-	name = "Golden fountain pen";
+	name = "金色钢笔";
 	pixel_y = 8
 	},
 /turf/open/floor/plating/granite/black,
@@ -58791,7 +58819,7 @@
 /area/vtm/interior/nosferatu_office)
 "nZN" = (
 /obj/fusebox/transformer{
-	name = "police station transformer"
+	name = "警察局变压器"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
@@ -58901,7 +58929,7 @@
 /area/vtm)
 "oaL" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /obj/effect/spawner/random/special_lighter,
 /turf/open/misc/dirt,
@@ -59678,7 +59706,7 @@
 /obj/item/statuebust{
 	pixel_y = 12;
 	color = "#A9A9A9";
-	name = "Bust of Augustus Giovanni"
+	name = "奥古斯都·乔凡尼半身像"
 	},
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/giovanni)
@@ -61071,7 +61099,7 @@
 /obj/machinery/door/poddoor/shutters/armory{
 	damage_deflection = 60;
 	max_integrity = 300;
-	name = "Panic Room Shutter";
+	name = "安全室卷帘门";
 	id = 12;
 	icon_state = "open";
 	density = 0;
@@ -61205,7 +61233,7 @@
 "oAT" = (
 /obj/structure/bed/maint{
 	pixel_y = 5;
-	desc = "An old grubby mattress. It smells like wet dog."
+	desc = "一张又旧又脏的床垫，闻起来像湿狗。"
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/cog/caern)
@@ -61403,7 +61431,7 @@
 	},
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "HospitalVisit";
-	preset_destination_names = list("2" = "Hospital Lobby", "3" = "Office's", "4" = "Long Term Care")
+	preset_destination_names = list("2" = "医院大厅", "3" = "办公室", "4" = "长期护理区")
 	},
 /obj/structure/transport/linear/public,
 /turf/open/floor/city/plating_mono,
@@ -61537,7 +61565,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/market/window/reinforced,
 /turf/open/floor/plating/rough,
@@ -61910,9 +61938,9 @@
 "oIp" = (
 /obj/item/ammo_box/magazine/darkpackthompson,
 /obj/item/gun/ballistic/automatic/darkpack/thompson{
-	desc = "As perfectly cared for as the day you met her. The pride of the family, with antique ownership license and a polished sheen. No one can stop you out walking with your wife.";
+	desc = "和你初见她那天一样精心保养着。家族的骄傲，带着古董持有许可证，表面擦得锃亮。谁也不能阻止你带着爱妻出门散步。";
 	masquerade_violating = 0;
-	name = "The Dontessa"
+	name = "教母"
 	},
 /obj/structure/table/wood/fancy/royalblack,
 /turf/open/floor/carpet/royalblack,
@@ -62054,7 +62082,7 @@
 /obj/structure/transport/linear/public,
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "Millenium";
-	preset_destination_names = list("2" = "Basement", "3" = "Ground Level", "4" = "Security Level", "5" = "Executive Level")
+	preset_destination_names = list("2" = "地下室", "3" = "地面层", "4" = "安保层", "5" = "行政层")
 	},
 /obj/effect/abstract/elevator_music_zone{
 	linked_elevator_id = "Millenium"
@@ -62161,7 +62189,7 @@
 "oLZ" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "window bars";
+	name = "窗户铁栅栏";
 	pixel_y = 32
 	},
 /turf/open/misc/dirt,
@@ -62549,8 +62577,8 @@
 /obj/effect/turf_decal/siding/grey/inner_corner,
 /obj/structure/table/wood/fancy/blue,
 /obj/item/melee/sabre/rapier{
-	name = "old rapier";
-	desc = "An engraved and brittle rapier with a bent tip. Supposedly, it was used in some historic battle."
+	name = "旧刺剑";
+	desc = "一把刻有花纹、质地脆弱的刺剑，剑尖已经弯曲。据说曾用于某场历史战役。"
 	},
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/granite/black,
@@ -62919,9 +62947,9 @@
 /obj/item/scythe/vamp{
 	block_chance = 35;
 	color = "#808000";
-	desc = "A sophisticated scythe made from the best materials brought from Italy. Strange, usually mafiosi prefer guns... Emits grave energy";
+	desc = "一把用意大利运来的上等材料制成的精致镰刀。真奇怪，黑手党通常更喜欢枪……散发着坟墓的气息。";
 	force = 40;
-	name = "gravekeeper"
+	name = "守墓人"
 	},
 /obj/effect/spawner/random/occult/artifact,
 /obj/item/clothing/under/vampire/rich,
@@ -63799,7 +63827,7 @@
 /area/vtm/interior/endron_facility)
 "pfS" = (
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = 8;
 	pixel_y = 10
 	},
@@ -63977,7 +64005,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/brick_old,
 /turf/open/floor/plating/rough,
@@ -64133,7 +64161,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/effect/decal/wallpaper/red/low,
 /obj/structure/platform/lowwall/rich/window,
@@ -64156,7 +64184,7 @@
 /area/vtm/interior/shop)
 "pjO" = (
 /obj/fusebox/transformer{
-	name = "union square transformer"
+	name = "联合广场变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/outside/unionsquare)
@@ -64279,7 +64307,7 @@
 "pkZ" = (
 /obj/structure/table/wood,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -64960,8 +64988,8 @@
 /area/vtm/interior/salubri)
 "psV" = (
 /obj/structure/bed/dogbed{
-	desc = "A small pet bed.";
-	name = "pet bed"
+	desc = "一张小巧的宠物床。";
+	name = "宠物床"
 	},
 /mob/living/basic/pet/dog/wolf/black,
 /obj/item/dog_bone,
@@ -65264,7 +65292,7 @@
 	pixel_y = 30
 	},
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = 6;
 	pixel_y = 10
 	},
@@ -65635,7 +65663,7 @@
 /area/vtm/interior/sewer)
 "pCc" = (
 /obj/fusebox/transformer{
-	name = "interior transformer"
+	name = "室内变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior)
@@ -65704,7 +65732,7 @@
 	dir = 10
 	},
 /mob/living/basic/pet/dog/darkpack/ginger{
-	name = "Cinnamon"
+	name = "肉桂"
 	},
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/salubri)
@@ -66003,14 +66031,20 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/museum)
 "pHx" = (
-/obj/structure/curtain/cloth{
-	color = "#525252"
+/obj/structure/table/wood,
+/obj/underplate{
+	pixel_y = 6
 	},
-/obj/effect/decal/cleanable/litter,
-/obj/effect/turf_decal/siding/wideplating/dark{
-	dir = 1
+/obj/underplate,
+/obj/underplate{
+	pixel_y = 4
 	},
-/turf/open/floor/wood/smooth/old,
+/obj/structure/platform/lowwall/bar,
+/obj/effect/decal/wallpaper/grey/low{
+	color = "#6d6d6d"
+	},
+/obj/item/reagent_containers/condiment/ketchup,
+/turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
 "pHz" = (
 /obj/effect/decal/rugs,
@@ -66309,7 +66343,7 @@
 /area/vtm/outside/unionsquare)
 "pKN" = (
 /obj/structure/vampdoor/glass{
-	name = "Foyer"
+	name = "门厅"
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
 /obj/effect/mapping_helpers/door/lock,
@@ -66434,7 +66468,7 @@
 	},
 /obj/structure/table,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -6;
 	pixel_y = 10
 	},
@@ -66742,7 +66776,7 @@
 "pON" = (
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 6
 	},
@@ -67427,7 +67461,7 @@
 "pYc" = (
 /obj/structure/table/wood,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -67548,7 +67582,7 @@
 	dir = 10
 	},
 /mob/living/basic/pet/cat/darkpack{
-	name = "Cheri";
+	name = "谢丽";
 	gender = "female"
 	},
 /turf/open/floor/carpet/darkpack/bluesilver,
@@ -67638,7 +67672,7 @@
 /obj/effect/decal/cleanable/litter,
 /obj/structure/chair/plastic/darkpack{
 	dir = 1;
-	name = "Seat of Shame"
+	name = "羞耻之座"
 	},
 /turf/open/floor/plating/concrete{
 	icon_state = "canal_concrete"
@@ -68653,7 +68687,7 @@
 "qmB" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "window bars"
+	name = "窗户铁栅栏"
 	},
 /obj/structure/platform/lowwall/bar/window,
 /turf/open/floor/plating/rough,
@@ -68868,7 +68902,7 @@
 	dir = 5
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "qpC" = (
@@ -68989,7 +69023,7 @@
 	pixel_x = 4
 	},
 /mob/living/basic/chicken{
-	name = "Killer Cluck"
+	name = "咯咯杀手"
 	},
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer)
@@ -69321,7 +69355,7 @@
 /area/vtm/interior/giovanni/basement)
 "qwg" = (
 /obj/structure/vampdoor/glass{
-	name = "Phlebotomy"
+	name = "采血室"
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
 /obj/effect/mapping_helpers/door/lock,
@@ -69346,7 +69380,7 @@
 	dir = 5
 	},
 /mob/living/basic/pet/dog/corgi/puppy{
-	real_name = "wasabi"
+	real_name = "山葵"
 	},
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/salubri)
@@ -69881,7 +69915,7 @@
 	pixel_x = -8
 	},
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -6;
 	pixel_y = 10
 	},
@@ -69959,7 +69993,7 @@
 "qEc" = (
 /obj/structure/table/wood/poker,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = 6;
 	pixel_y = 10
 	},
@@ -70833,7 +70867,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/city,
 /turf/open/floor/plating/rough,
@@ -71061,7 +71095,7 @@
 "qQX" = (
 /obj/structure/table,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -71526,7 +71560,7 @@
 /area/vtm/interior/sewer)
 "qWF" = (
 /obj/structure/closet/crate/bin{
-	name = "sharps disposal bin"
+	name = "锐器回收箱"
 	},
 /obj/item/shard,
 /obj/effect/turf_decal/siding/grey{
@@ -71905,7 +71939,7 @@
 "rcB" = (
 /obj/structure/table,
 /obj/item/melee/chainofcommand{
-	name = "whip";
+	name = "鞭子";
 	pixel_x = 6;
 	pixel_y = 7
 	},
@@ -72067,7 +72101,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/floor/plating/canal,
 /area/vtm/interior)
@@ -72144,7 +72178,7 @@
 /area/vtm/interior/clinic/haven)
 "reU" = (
 /obj/structure/vampdoor/glass{
-	name = "Recovery Room"
+	name = "恢复室"
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
 /obj/effect/mapping_helpers/door/lock,
@@ -72467,7 +72501,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/bed/dogbed,
 /mob/living/basic/frog{
-	name = "Frogmonimus the Wise"
+	name = "智者蛙莫尼姆"
 	},
 /obj/item/clothing/head/vampire/wizard/green{
 	pixel_y = 6
@@ -72688,6 +72722,12 @@
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/misc/grass,
 /area/vtm)
+"rmb" = (
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/interior/anarch)
 "rmd" = (
 /obj/structure/sink/directional/east,
 /obj/structure/toilet{
@@ -73164,7 +73204,7 @@
 /obj/item/clothing/shoes/sandal{
 	pixel_x = 6;
 	pixel_y = 10;
-	name = "pluggers"
+	name = "人字拖"
 	},
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/park)
@@ -73228,14 +73268,14 @@
 "rsv" = (
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 4
 	},
 /obj/structure/table/wood/fancy/royalblack,
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 7;
 	pixel_x = 7
@@ -73393,7 +73433,7 @@
 	dir = 10
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "ruP" = (
@@ -74465,8 +74505,8 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/chinatown)
 "rGg" = (
-/obj/structure/chair/stool/bar/darkpack/black,
-/turf/open/floor/carpet/darkpack/old,
+/obj/effect/decal/rugs,
+/turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
 "rGp" = (
 /obj/structure/closet/crate/bin,
@@ -75080,7 +75120,7 @@
 /obj/effect/decal/wallpaper/grey,
 /turf/closed/wall/vampwall/rich/old{
 	density = 0;
-	desc = "A wall with a crack in it";
+	desc = "一面有裂缝的墙。";
 	color = "#BBBBBB"
 	},
 /area/vtm/interior/tzimisce_manor)
@@ -75254,7 +75294,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/water/vamp_sewer/border,
 /area/vtm/interior/sewer)
@@ -75336,7 +75376,7 @@
 "rTi" = (
 /obj/structure/vampdoor/glass{
 	dir = 4;
-	name = "Garage"
+	name = "车库"
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
 /obj/effect/mapping_helpers/door/lock,
@@ -75662,8 +75702,8 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/interior/tzimisce_manor)
 "rYe" = (
-/obj/structure/extinguisher_cabinet/directional/east,
-/turf/open/floor/carpet/darkpack/old,
+/obj/machinery/griddle,
+/turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
 "rYf" = (
 /obj/effect/decal/fakelattice{
@@ -75909,6 +75949,7 @@
 /obj/effect/turf_decal/siding/wideplating/dark/corner{
 	dir = 8
 	},
+/obj/structure/chair/stool/bar/darkpack/red,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch)
 "sbI" = (
@@ -76362,7 +76403,7 @@
 /area/vtm)
 "shf" = (
 /obj/fusebox/transformer{
-	name = "pacific heights transformer"
+	name = "太平洋高地区变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/outside/pacificheights)
@@ -76727,7 +76768,7 @@
 "smM" = (
 /obj/machinery/button/door{
 	id = 56;
-	name = "Parking Shutters Control";
+	name = "停车场卷帘门控制器";
 	pixel_y = 5
 	},
 /obj/structure/table,
@@ -76795,9 +76836,23 @@
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/giovanni)
 "snp" = (
-/obj/structure/table/wood,
-/obj/structure/platform/lowwall/bar,
 /obj/machinery/computer/security/telescreen/entertainment/directional/north,
+/obj/effect/decal/rugs,
+/obj/structure/rack/tall/metal_shelf,
+/obj/item/stack/sheet/cardboard,
+/obj/item/stack/sheet/cardboard,
+/obj/item/stack/sheet/cardboard,
+/obj/item/stack/sheet/cardboard,
+/obj/item/stack/sheet/cardboard,
+/obj/item/stack/sheet/cardboard,
+/obj/item/stack/sheet/cardboard,
+/obj/item/stack/sheet/cardboard,
+/obj/item/stack/sheet/cardboard,
+/obj/item/stack/sheet/cardboard,
+/obj/item/clothing/suit/apron/chef,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
 "snu" = (
@@ -77531,8 +77586,20 @@
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/setite)
 "svC" = (
-/obj/structure/chair/stool/bar/darkpack/red,
-/turf/open/floor/carpet/darkpack/old,
+/obj/structure/closet/secure_closet/freezer/fridge/all_access,
+/obj/item/storage/box/ingredients/american,
+/obj/item/storage/box/ingredients/vegetarian,
+/obj/item/storage/fancy/egg_box,
+/obj/item/reagent_containers/condiment/milk{
+	name = "全脂牛奶"
+	},
+/obj/item/reagent_containers/condiment/milk{
+	name = "全脂牛奶"
+	},
+/obj/item/storage/box/ingredients/carnivore,
+/obj/item/storage/box/ingredients/vegetarian,
+/obj/item/storage/box/ingredients/american,
+/turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
 "svU" = (
 /obj/structure/bookcase/random/nonfiction,
@@ -77604,7 +77671,7 @@
 /area/vtm/interior/sewer)
 "swA" = (
 /obj/fusebox/transformer{
-	name = "mansion transformer"
+	name = "宅邸变压器"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/giovanni)
@@ -77939,8 +78006,8 @@
 	pixel_x = 9
 	},
 /obj/item/kirbyplants/random/dead{
-	desc = "It doesn't look very healthy...";
-	name = "dead plant";
+	desc = "它看起来不太健康……";
+	name = "枯死的植物";
 	pixel_y = 24;
 	pixel_x = -7
 	},
@@ -78433,8 +78500,8 @@
 /area/vtm/interior/endron_facility/plant)
 "sGs" = (
 /obj/structure/bed/dogbed{
-	desc = "A small... 'pet' bed.";
-	name = "human bed"
+	desc = "一张小小的……“宠物”床。";
+	name = "人类床"
 	},
 /turf/open/misc/dirt,
 /area/vtm/interior/cog/caern)
@@ -78557,7 +78624,7 @@
 "sIh" = (
 /obj/structure/table/wood,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -4;
 	pixel_y = 6
 	},
@@ -79058,7 +79125,7 @@
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = 5467;
 	max_integrity = 3500;
-	name = "Warrens";
+	name = "地下巢穴";
 	dir = 8
 	},
 /obj/structure/vampdoor/old{
@@ -79434,7 +79501,7 @@
 /area/vtm/interior/chantry/basement)
 "sTG" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /obj/item/bouquet,
 /obj/effect/mob_spawn/corpse/human/skeleton,
@@ -80111,7 +80178,7 @@
 /area/vtm/interior/endron_facility/restricted)
 "tcT" = (
 /obj/fusebox/transformer{
-	name = "financial district transformer"
+	name = "金融区变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/outside/financialdistrict)
@@ -80414,7 +80481,7 @@
 "tgn" = (
 /turf/closed/wall/vampwall/rich/old{
 	density = 0;
-	desc = "A wall with a crack in it";
+	desc = "一面有裂缝的墙。";
 	color = "#BBBBBB"
 	},
 /area/vtm/interior/tzimisce_manor)
@@ -80822,8 +80889,8 @@
 /obj/effect/decal/graffiti,
 /obj/structure/table/wood,
 /obj/item/kirbyplants/random/dead{
-	desc = "It doesn't look very healthy...";
-	name = "dead plant";
+	desc = "它看起来不太健康……";
+	name = "枯死的植物";
 	pixel_y = 7
 	},
 /obj/item/kirbyplants/darkpack/plant5{
@@ -81118,7 +81185,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/brick_old,
 /turf/open/floor/plating/rough,
@@ -81499,7 +81566,7 @@
 /area/vtm/interior/police)
 "tty" = (
 /obj/structure/musician/piano{
-	desc = "an elegant piano";
+	desc = "一架优雅的钢琴。";
 	pixel_x = 3;
 	pixel_y = 5
 	},
@@ -81651,7 +81718,7 @@
 /area/vtm/interior/sewer)
 "tvk" = (
 /obj/fusebox/transformer{
-	name = "milllennium tower transformer"
+	name = "千禧大厦变压器"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/millennium_tower)
@@ -81815,8 +81882,8 @@
 /area/vtm/outside/forest)
 "txN" = (
 /obj/item/kirbyplants/random/dead{
-	desc = "It doesn't look very healthy...";
-	name = "dead plant";
+	desc = "它看起来不太健康……";
+	name = "枯死的植物";
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/ash,
@@ -81970,7 +82037,7 @@
 /area/vtm/interior/clinic)
 "tzY" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/mob_spawn/corpse/human/skeleton,
@@ -82092,7 +82159,7 @@
 /area/vtm/outside/fishermanswharf/industrial)
 "tBI" = (
 /mob/living/basic/frog{
-	name = "Freddo"
+	name = "弗雷多"
 	},
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer/nosferatu_warren)
@@ -82235,7 +82302,7 @@
 "tDg" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "window bars"
+	name = "窗户铁栅栏"
 	},
 /obj/structure/curtain/bounty{
 	pixel_y = 15
@@ -82791,8 +82858,8 @@
 /obj/effect/turf_decal/siding/grey,
 /obj/structure/table/wood/fancy/blue,
 /obj/item/claymore/longsword{
-	desc = "A classic weapon of knightly use. Now a museum piece, supposedly a donation from the Old Church by the pier.";
-	name = "old longsword"
+	desc = "一件骑士们使用的经典武器，如今已成为博物馆展品，据说是码头边老教堂捐赠的。";
+	name = "旧长剑"
 	},
 /obj/structure/sign/flag/spain{
 	pixel_y = 29
@@ -82897,7 +82964,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/water/vamp_sewer/border,
 /area/vtm/interior/sewer)
@@ -83498,7 +83565,7 @@
 	dir = 10
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "tSt" = (
@@ -83764,8 +83831,8 @@
 /area/vtm/interior/jazzclub)
 "tUO" = (
 /obj/effect/turf_decal/plaque{
-	name = "Safe Haven Construction Branding";
-	desc = "This Panic Room is brought to you by Safe Haven Construction. Choose Peace of Mind, Choose Safe Haven."
+	name = "安居建筑公司标牌";
+	desc = "本安全室由安居建筑公司承建。选择安心，选择安居。"
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 4
@@ -83831,7 +83898,7 @@
 /area/vtm/interior/giovanni)
 "tVt" = (
 /obj/fusebox/transformer{
-	name = "library transformer"
+	name = "图书馆变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/chantry)
@@ -84459,7 +84526,7 @@
 "ucP" = (
 /obj/effect/turf_decal/siding/wideplating/red/corner,
 /obj/structure/musician/piano{
-	desc = "an elegant piano"
+	desc = "一架优雅的钢琴。"
 	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/shop)
@@ -84522,8 +84589,8 @@
 /obj/effect/turf_decal/siding/wideplating/blue,
 /obj/structure/sign/plaques/kiddie{
 	pixel_y = 29;
-	name = "\improper journalists plaque";
-	desc = "A memorial plaque referencing journalists that had lost their lives covering conflicts."
+	name = "\improper 记者纪念牌";
+	desc = "一块纪念在报道冲突时遇难记者的牌匾。"
 	},
 /mob/living/carbon/human/npc/guard,
 /turf/open/floor/wood/smooth/old,
@@ -84626,7 +84693,7 @@
 "udR" = (
 /obj/structure/table/wood,
 /obj/item/clothing/head/costume/spacepolice{
-	name = "SFPD Captains cap"
+	name = "旧金山警察局局长帽"
 	},
 /obj/effect/turf_decal/siding/wideplating/dark,
 /obj/machinery/sprinkler/area_managed,
@@ -84714,7 +84781,7 @@
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/structure/vampdoor{
-	name = "Operation Room 1"
+	name = "1号手术室"
 	},
 /obj/effect/turf_decal/siding/grey{
 	dir = 1
@@ -85363,8 +85430,9 @@
 	},
 /area/vtm/interior/sewer/police)
 "unf" = (
+/obj/machinery/deepfryer,
 /obj/machinery/light/small/red/directional/north,
-/turf/open/floor/carpet/darkpack/old,
+/turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
 "unk" = (
 /obj/effect/decal/wallpaper/grey/low{
@@ -86177,7 +86245,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/water/vamp_sewer/border,
 /area/vtm/interior/sewer)
@@ -86391,13 +86459,13 @@
 /obj/structure/railing,
 /obj/structure/table,
 /obj/item/melee/sabre/vamp{
-	name = "Training Sabre";
+	name = "训练军刀";
 	force = 1;
 	throwforce = 5;
 	pixel_y = 7
 	},
 /obj/item/melee/sabre/vamp{
-	name = "Training Sabre";
+	name = "训练军刀";
 	force = 1;
 	throwforce = 5
 	},
@@ -86431,7 +86499,7 @@
 	},
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer)
@@ -87482,7 +87550,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/floor/plating/canal,
 /area/vtm/interior)
@@ -87626,7 +87694,7 @@
 /area/vtm/interior/church/staff)
 "uPe" = (
 /obj/fusebox/transformer{
-	name = "cultural square transformer"
+	name = "文化广场变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/library)
@@ -87896,7 +87964,7 @@
 /area/vtm/outside/financialdistrict)
 "uTc" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /obj/item/clothing/head/helmet/skull,
 /turf/open/misc/dirt,
@@ -88040,7 +88108,7 @@
 /area/vtm/outside/culture/italy)
 "uVA" = (
 /obj/fusebox/transformer{
-	name = "techshop transformer"
+	name = "技术商店变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
@@ -88288,7 +88356,7 @@
 	pixel_x = -8
 	},
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = 6;
 	pixel_y = 10
 	},
@@ -88448,6 +88516,15 @@
 /obj/structure/platform/lowwall/rich,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/theatre)
+"vbH" = (
+/obj/structure/table/wood,
+/obj/effect/decal/wallpaper/grey/low{
+	color = "#6d6d6d"
+	},
+/obj/structure/platform/lowwall/bar,
+/obj/structure/desk_bell,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/anarch)
 "vbJ" = (
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/plating/sidewalk,
@@ -88695,7 +88772,7 @@
 /obj/effect/decal/cleanable/trash,
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "window bars"
+	name = "窗户铁栅栏"
 	},
 /turf/open/floor/plating/canalplating,
 /area/vtm/interior/sewer/nosferatu_warren)
@@ -88927,7 +89004,7 @@
 "viu" = (
 /obj/structure/vampdoor/old{
 	dir = 4;
-	name = "Vet Clinic"
+	name = "兽医诊所"
 	},
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 4
@@ -89434,7 +89511,7 @@
 "vnV" = (
 /obj/effect/turf_decal/siding/wideplating/dark/corner,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -6;
 	pixel_y = -1
 	},
@@ -89548,7 +89625,7 @@
 /area/vtm/outside/pacificheights)
 "vqs" = (
 /obj/fusebox/transformer{
-	name = "hotel transformer"
+	name = "旅馆变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/hotel)
@@ -89883,8 +89960,8 @@
 /area/vtm/interior/hotel)
 "vuO" = (
 /obj/item/kirbyplants/random/dead{
-	desc = "It doesn't look very healthy...";
-	name = "dead plant";
+	desc = "它看起来不太健康……";
+	name = "枯死的植物";
 	pixel_y = 7
 	},
 /turf/open/floor/plating/canalplating,
@@ -89893,27 +89970,27 @@
 /obj/structure/table/wood/fancy/red,
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 5
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 12;
 	pixel_x = 6
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 2;
 	pixel_x = 5
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 7;
 	pixel_x = -6
@@ -90264,7 +90341,7 @@
 	},
 /obj/machinery/button/door{
 	id = "112";
-	name = "Garage Shutters Control";
+	name = "车库卷帘门控制器";
 	pixel_y = 32;
 	pixel_x = -6
 	},
@@ -90480,7 +90557,7 @@
 /area/vtm/interior/jazzclub)
 "vDx" = (
 /obj/fusebox/transformer{
-	name = "milllennium tower transformer"
+	name = "千禧大厦变压器"
 	},
 /obj/machinery/light/red/directional/north,
 /turf/open/floor/plating/concrete,
@@ -90738,7 +90815,7 @@
 /area/vtm/outside/financialdistrict)
 "vGP" = (
 /obj/structure/vampdoor/simple{
-	name = "Toilet"
+	name = "厕所"
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
 /obj/effect/mapping_helpers/door/bash_difficulty/five,
@@ -91703,8 +91780,8 @@
 "vTz" = (
 /obj/structure/plaque/static_plaque/golden{
 	pixel_y = 28;
-	name = "Golden memorial plaque";
-	desc = "A gold emblazened plaque commemorating a long since deceased jazz star."
+	name = "金色纪念牌";
+	desc = "一块镶金牌匾，纪念一位早已去世的爵士乐明星。"
 	},
 /obj/effect/turf_decal/siding/grey,
 /obj/effect/turf_decal/siding/grey{
@@ -91783,7 +91860,7 @@
 /area/vtm/interior/chantry/basement)
 "vVm" = (
 /obj/darkpack_car/limousine/camarilla{
-	name = "Estate Limo";
+	name = "庄园豪华轿车";
 	dir = 1
 	},
 /turf/open/floor/plating/asphalt,
@@ -91813,7 +91890,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/vampipe{
 	icon_state = "piping31"
@@ -91830,7 +91907,7 @@
 	},
 /obj/machinery/button/door{
 	id = "clinic";
-	name = "Parking Shutters Control";
+	name = "停车场卷帘门控制器";
 	pixel_x = -29
 	},
 /turf/open/floor/plating/asphalt,
@@ -91935,7 +92012,7 @@
 	pixel_y = 32;
 	pixel_x = -8;
 	id = 133;
-	name = "Armoury shutters button"
+	name = "军械库卷帘门按钮"
 	},
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 1
@@ -92554,16 +92631,16 @@
 "wdV" = (
 /obj/structure/closet,
 /obj/item/gun/ballistic/automatic/darkpack/ar15{
-	desc = "A shiny new SFPD Carbine, courtesy of improved budgets and a dire need to clean these streets.";
-	name = "Police Issue CAR-15"
+	desc = "一支崭新的旧金山警察局卡宾枪，得益于增加的预算，以及整顿这些街道的迫切需要。";
+	name = "警用CAR-15卡宾枪"
 	},
 /obj/item/gun/ballistic/automatic/darkpack/ar15{
-	desc = "A shiny new SFPD Carbine, courtesy of improved budgets and a dire need to clean these streets.";
-	name = "Police Issue CAR-15"
+	desc = "一支崭新的旧金山警察局卡宾枪，得益于增加的预算，以及整顿这些街道的迫切需要。";
+	name = "警用CAR-15卡宾枪"
 	},
 /obj/item/gun/ballistic/automatic/darkpack/ar15{
-	desc = "A shiny new SFPD Carbine, courtesy of improved budgets and a dire need to clean these streets.";
-	name = "Police Issue CAR-15"
+	desc = "一支崭新的旧金山警察局卡宾枪，得益于增加的预算，以及整顿这些街道的迫切需要。";
+	name = "警用CAR-15卡宾枪"
 	},
 /obj/item/ammo_box/darkpack/c556,
 /obj/item/ammo_box/darkpack/c556,
@@ -92610,7 +92687,7 @@
 /area/vtm/outside/fishermanswharf/industrial)
 "wem" = (
 /obj/fusebox/transformer{
-	name = "courthouse transformer"
+	name = "法院变压器"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police/court)
@@ -92641,8 +92718,8 @@
 /area/vtm/interior)
 "weN" = (
 /obj/structure/bed/dogbed{
-	desc = "A small pet bed.";
-	name = "pet bed"
+	desc = "一张小巧的宠物床。";
+	name = "宠物床"
 	},
 /mob/living/basic/pet/cat/darkpack/zleeby,
 /obj/effect/mapping_helpers/mob_buckler,
@@ -92715,7 +92792,7 @@
 	pixel_y = 4
 	},
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -4;
 	pixel_y = 6
 	},
@@ -93032,7 +93109,7 @@
 /area/vtm/interior)
 "wka" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /obj/effect/spawner/random/occult/artifact,
 /turf/open/misc/dirt,
@@ -93459,7 +93536,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 15;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
@@ -94461,7 +94538,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/effect/decal/wallpaper/paper/low,
 /obj/structure/platform/lowwall/brick_old/window,
@@ -95567,8 +95644,8 @@
 /area/vtm/interior/apartment)
 "wLR" = (
 /obj/structure/bed/dogbed{
-	desc = "A small pet bed.";
-	name = "pet bed"
+	desc = "一张小巧的宠物床。";
+	name = "宠物床"
 	},
 /obj/item/food/meat/slab/human/mutant/skeleton,
 /mob/living/basic/pet/dog/bullterrier,
@@ -95637,7 +95714,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/market/window/reinforced,
 /turf/open/floor/plating/rough,
@@ -96420,8 +96497,8 @@
 /obj/item/storage/belt/sheath/vamp/sabre,
 /obj/item/melee/sabre/vamp{
 	color = "#00A36C";
-	name = "The Law of Judgement";
-	desc = "A curved sword seemingly stuck with a permanent green tint to its steel, it is a weapon that has been passed down within the clan for decades, and now, yours to wield in enforcing its namesake."
+	name = "裁决之律";
+	desc = "一把钢刃似乎永远泛着绿光的弯剑。它已在氏族中传承数十年，如今由你挥舞，执行其名所代表的裁决。"
 	},
 /obj/effect/turf_decal/siding/wood/dark{
 	dir = 10
@@ -96815,7 +96892,7 @@
 	dir = 6
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "xby" = (
@@ -97014,7 +97091,7 @@
 /area/vtm/interior/sewer/nosferatu_warren)
 "xda" = (
 /obj/item/paper/fluff{
-	default_raw_text = "They put it on the dollar to mock us. Not a symbol, a signal, a beacon. It watches from the apex, unmoving, unblinking, uncaring. - I covered my mirrors and it still knows. The ocean protects, it protects, it protects."
+	default_raw_text = "他们把它印在钞票上嘲弄我们。那不是象征，是信号，是灯塔。它从顶端注视着，不动，不眨眼，毫不在意。——我遮住了镜子，它却依然知道。海洋会保护我们，会保护，会保护。"
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/sewer/police)
@@ -97212,7 +97289,7 @@
 "xfH" = (
 /obj/effect/decal/wallpaper/paper/darkred,
 /turf/closed/wall/vampwall/rich{
-	desc = "A large crack is formed in the wall";
+	desc = "墙上裂开了一道大缝。";
 	density = 0;
 	color = "#BBBBBB"
 	},
@@ -97757,7 +97834,7 @@
 /area/vtm/interior/giovanni)
 "xni" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /obj/effect/mob_spawn/corpse/human/skeleton,
 /turf/open/misc/dirt,
@@ -98143,7 +98220,7 @@
 /area/vtm/interior/endron_facility)
 "xsQ" = (
 /obj/structure/closet/crate{
-	name = "riot control crate"
+	name = "防暴装备箱"
 	},
 /obj/item/storage/box/flashbangs,
 /obj/item/storage/box/flashbangs,
@@ -98348,7 +98425,7 @@
 "xvI" = (
 /obj/machinery/door/poddoor/shutters{
 	id = 435;
-	name = "Parking Shutter";
+	name = "停车场卷帘门";
 	dir = 2
 	},
 /turf/open/floor/plating/asphalt,
@@ -98405,14 +98482,14 @@
 /obj/structure/table/wood/fancy/red,
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 12;
 	pixel_x = 8
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	light_color = "#06402B";
-	name = "green candle";
+	name = "绿色蜡烛";
 	color = "#06402B";
 	pixel_y = 2
 	},
@@ -99006,7 +99083,7 @@
 	dir = 8
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "xDm" = (
@@ -99109,7 +99186,7 @@
 /area/vtm)
 "xEq" = (
 /obj/fusebox/transformer{
-	name = "endron transformer"
+	name = "安德隆变压器"
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/endron_facility/restricted)
@@ -99118,7 +99195,7 @@
 	dir = 5
 	},
 /turf/open/water/river{
-	name = "water"
+	name = "水"
 	},
 /area/vtm/interior/tzimisce_sanctum)
 "xEt" = (
@@ -99229,7 +99306,7 @@
 	},
 /obj/structure/vampfence/rich{
 	dir = 4;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer)
@@ -99695,7 +99772,7 @@
 	},
 /obj/effect/turf_decal/siding/white,
 /obj/structure/vampdoor/wood{
-	name = "Office"
+	name = "办公室"
 	},
 /obj/effect/mapping_helpers/door/lock_difficulty/six,
 /obj/effect/mapping_helpers/door/bash_difficulty/six,
@@ -99791,7 +99868,7 @@
 "xLy" = (
 /obj/structure/table/wood,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -100193,7 +100270,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/structure/platform/lowwall/brick_old/window,
 /turf/open/floor/plating/rough,
@@ -100668,7 +100745,7 @@
 "xXs" = (
 /obj/structure/table/wood,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -100934,7 +101011,7 @@
 /obj/structure/railing/wooden_fence,
 /obj/effect/turf_decal/siding/wood/dark,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -4;
 	pixel_y = 6
 	},
@@ -101141,7 +101218,7 @@
 /area/vtm/interior/sabbat_lair)
 "ydM" = (
 /obj/structure/closet/crate/grave/fresh{
-	name = "grave"
+	name = "坟墓"
 	},
 /obj/item/stack/dollar/hundred,
 /turf/open/misc/dirt,
@@ -101276,7 +101353,7 @@
 "yfN" = (
 /obj/structure/table/wood,
 /obj/item/storage/ashtray{
-	desc = "A discreet ashtray for keeping things clean.";
+	desc = "一个不起眼的烟灰缸，用来保持整洁。";
 	pixel_x = -4;
 	pixel_y = 6
 	},
@@ -101699,10 +101776,10 @@
 /obj/item/gun/ballistic/rifle/darkpack/lever{
 	pixel_y = 5;
 	pin = null;
-	name = "Inert Henry Repeater"
+	name = "失效的亨利连发步枪"
 	},
 /obj/item/gun/ballistic/automatic/darkpack/huntrifle{
-	name = "antique rifle";
+	name = "古董步枪";
 	pixel_y = 17;
 	pin = null
 	},
@@ -101842,7 +101919,7 @@
 /obj/structure/vampfence/rich{
 	dir = 4;
 	pixel_y = 8;
-	name = "bars"
+	name = "铁栅栏"
 	},
 /obj/effect/decal/wallpaper/grey/low{
 	color = "#585858"
@@ -146726,8 +146803,8 @@ dSH
 dSH
 kBM
 snp
-dpa
-dpa
+rmb
+rmb
 ivd
 dkB
 sGz
@@ -146931,7 +147008,7 @@ dSH
 efc
 svC
 rGg
-svC
+rGg
 pHx
 sbE
 gcL
@@ -147134,10 +147211,10 @@ dSH
 dSH
 raU
 unf
-sGz
-sGz
-fUl
-mNF
+rGg
+amR
+uSP
+fQA
 sGz
 eqY
 ciQ
@@ -147337,11 +147414,11 @@ iQQ
 dSH
 dSH
 ivd
-sGz
+cgq
 rYe
-sGz
-fUl
-mNF
+rGg
+vbH
+fyl
 sGz
 eqY
 tsD
@@ -147544,8 +147621,8 @@ kBM
 kBM
 kBM
 kBM
-dJu
-utQ
+uHB
+bUt
 cls
 eqY
 jkk
@@ -148157,7 +148234,7 @@ mcz
 rps
 tqc
 fUl
-bwx
+nFg
 rvK
 ocQ
 pld

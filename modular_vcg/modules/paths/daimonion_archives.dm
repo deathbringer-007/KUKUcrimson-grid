@@ -23,13 +23,12 @@
 	new /datum/data/vending_product("炼狱之火法术书（IV 级）",	/obj/item/path_spellbook/fires_of_inferno/level4,	240),
 	new /datum/data/vending_product("炼狱之火法术书（V 级）",	/obj/item/path_spellbook/fires_of_inferno/level5, 270),
 
-	/* Commented out until these have been added
-	new /datum/data/vending_product("Taking of Spirit Spellbook (Level I)",	/obj/item/path_spellbook/taking_of_spirit/level1,	130),
-	new /datum/data/vending_product("Taking of Spirit Spellbook (Level II)",	/obj/item/path_spellbook/taking_of_spirit/level2,	180),
-	new /datum/data/vending_product("Taking of Spirit Spellbook (Level III)",	/obj/item/path_spellbook/taking_of_spirit/level3,	210),
-	new /datum/data/vending_product("Taking of Spirit Spellbook (Level IV)",	/obj/item/path_spellbook/taking_of_spirit/level4,	240),
-	new /datum/data/vending_product("Taking of Spirit Spellbook (Level V)",	/obj/item/path_spellbook/taking_of_spirit/level5, 270),
-	*/
+	new /datum/data/vending_product("摄魂之道法术书（I 级）",	/obj/item/path_spellbook/taking_of_spirit/level1,	130),
+	new /datum/data/vending_product("摄魂之道法术书（II 级）",	/obj/item/path_spellbook/taking_of_spirit/level2,	180),
+	new /datum/data/vending_product("摄魂之道法术书（III 级）",	/obj/item/path_spellbook/taking_of_spirit/level3,	210),
+	new /datum/data/vending_product("摄魂之道法术书（IV 级）",	/obj/item/path_spellbook/taking_of_spirit/level4,	240),
+	new /datum/data/vending_product("摄魂之道法术书（V 级）",	/obj/item/path_spellbook/taking_of_spirit/level5, 270),
+
 	// ARTIFACTS
 	// Lower tier artifacts
 	new /datum/data/vending_product("威卡帕格蓟", /obj/item/occult_artifact/vampire/weekapaug_thistle, 75),
@@ -210,13 +209,12 @@
 			/obj/item/path_spellbook/fires_of_inferno/level2,
 			/obj/item/path_spellbook/fires_of_inferno/level3,
 			/obj/item/path_spellbook/fires_of_inferno/level4,
-			/obj/item/path_spellbook/fires_of_inferno/level5))
-			/* Not yet implemented!
+			/obj/item/path_spellbook/fires_of_inferno/level5,
 			/obj/item/path_spellbook/taking_of_spirit/level1,
 			/obj/item/path_spellbook/taking_of_spirit/level2,
 			/obj/item/path_spellbook/taking_of_spirit/level3,
 			/obj/item/path_spellbook/taking_of_spirit/level4,
-			/obj/item/path_spellbook/taking_of_spirit/level5)) */
+			/obj/item/path_spellbook/taking_of_spirit/level5))
 
 		if(artifact.research_value >= 20)
 			to_chat(user, span_nicegreen("炼狱诸魔贪婪地吞下这件强大的遗物，将其纳入收藏，并赐予你[artifact.research_value]点恩宠！"))

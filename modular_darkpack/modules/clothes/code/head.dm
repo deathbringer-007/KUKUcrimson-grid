@@ -375,6 +375,7 @@
 	user.cure_blind("blindfold_[REF(src)]")
 
 /obj/item/clothing/head/vampire/blackbag/attack(mob/living/target, mob/living/user)
+	. = ..()
 	var/obj/item/clothing/head/H = target.get_item_by_slot(ITEM_SLOT_HEAD)
 	if(H?.clothing_flags & SNUG_FIT)
 		to_chat(user, span_warning("对方的头饰挡住了黑色头袋，套不上去！"))

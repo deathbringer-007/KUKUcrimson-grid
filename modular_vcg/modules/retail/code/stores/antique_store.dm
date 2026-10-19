@@ -7,5 +7,13 @@
 		new /datum/data/vending_product("长矛", /obj/item/darkpack/spear),
 		new /datum/data/vending_product("军刀", /obj/item/storage/belt/sheath/vamp/sabre),
 		new /datum/data/vending_product("长剑", /obj/item/storage/belt/sheath/vamp/sword),
-		new /datum/data/vending_product("战斧", /obj/item/fireaxe/vamp/battle)
+		new /datum/data/vending_product("战斧", /obj/item/fireaxe/vamp/battle),
+		new /datum/data/vending_product("板甲（绿色）", /obj/item/clothing/suit/armor/riot/knight, 2500),
+		new /datum/data/vending_product("板甲头盔（绿色）", /obj/item/clothing/head/helmet/knight, 500),
+		new /datum/data/vending_product("板甲（蓝色）", /obj/item/clothing/suit/armor/riot/knight/blue, 2500),
+		new /datum/data/vending_product("板甲头盔（蓝色）", /obj/item/clothing/head/helmet/knight/blue, 500),
+		new /datum/data/vending_product("板甲（黄色）", /obj/item/clothing/suit/armor/riot/knight/yellow, 2500),
+		new /datum/data/vending_product("板甲头盔（黄色）", /obj/item/clothing/head/helmet/knight/yellow, 500),
+		new /datum/data/vending_product("板甲（红色）", /obj/item/clothing/suit/armor/riot/knight/red, 2500),
+		new /datum/data/vending_product("板甲头盔（红色）", /obj/item/clothing/head/helmet/knight/red, 500)
 	)

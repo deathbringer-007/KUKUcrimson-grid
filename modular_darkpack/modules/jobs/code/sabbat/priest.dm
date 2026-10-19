@@ -86,6 +86,7 @@
 	desc = "无人可以违抗该隐，尤其是参加过共血仪式的人！背叛该隐与魔宴同盟的叛徒和逃亡者，以及知晓其叛行的人，都将遭到正义战团的讨伐。他们可能受到血噬、肢体摧残，或在腐朽心脏仍插着木桩时被投入仪式之火，直至被处以死刑。无人可以违抗该隐，也无人能逃脱他的复仇，密党的长老与战团的叛徒皆不例外。\n "
 
 /obj/item/sabbat_priest_tome/attack_self(mob/living/carbon/human/user)
+	. = ..()
 	if(!user.mind || !is_sabbatist(user.mind.assigned_role))
 		to_chat(user, "触碰这本典籍时，你没有感到任何异样。")
 		return

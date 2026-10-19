@@ -56,6 +56,7 @@
 	var/ritual
 
 /obj/item/thaumaturgy_scroll/attack_self(mob/living/user)
+	. = ..()
 	if(!ritual)
 		to_chat(user, span_cult("卷轴一片空白，没有可以施行的仪式。"))
 		return

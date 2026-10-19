@@ -34,6 +34,7 @@ GLOBAL_LIST_EMPTY(vault_doors)
 			connected_shutters += S
 
 /obj/keypad/attack_hand(mob/user)
+	. = ..()
 	if(!length(connected_shutters))
 		to_chat(user, span_warning("没有连接任何卷帘门。"))
 		return

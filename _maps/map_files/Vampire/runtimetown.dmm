@@ -30,6 +30,10 @@
 /obj/machinery/light/floor/lamppost/one,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"aK" = (
+/obj/effect/spawner/xmastree,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/techshop)
 "aL" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/wood/smooth/old,
@@ -405,6 +409,14 @@
 /obj/structure/cargo_take,
 /turf/open/misc/dirt,
 /area/vtm/outside/supply)
+"hR" = (
+/obj/structure/table/reinforced,
+/obj/structure/platform/lowwall/brick,
+/obj/structure/retail/police_equipment{
+	dir = 4
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/interior/shop)
 "hT" = (
 /obj/structure/transport/linear/public,
 /obj/structure/table,
@@ -414,7 +426,7 @@
 	},
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "DebugElevator2";
-	preset_destination_names = list("2" = "Lower", "3" = "Upper")
+	preset_destination_names = list("2" = "下层", "3" = "上层")
 	},
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
@@ -497,6 +509,7 @@
 /obj/machinery/button/door/directional/north{
 	id = "debughouse"
 	},
+/obj/effect/spawner/holiday_spawner/porch,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
 "jg" = (
@@ -1294,7 +1307,7 @@
 /obj/vampgrave{
 	spawn_interval = 300;
 	max_zombies_per_grave = 1;
-	name = "upturned grave"
+	name = "被翻开的坟墓"
 	},
 /turf/open/misc/dirt,
 /area/vtm/graveyard)
@@ -1546,8 +1559,8 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
 "zv" = (
-/mob/living/carbon/human/npc/shop,
 /obj/machinery/light/directional/north,
+/mob/living/carbon/human/npc/police_armory_guy,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
 "zA" = (
@@ -1632,7 +1645,7 @@
 /obj/structure/transport/linear/public,
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "DebugElevator3";
-	preset_destination_names = list("2" = "Lower", "3" = "Upper")
+	preset_destination_names = list("2" = "下层", "3" = "上层")
 	},
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
@@ -1708,7 +1721,7 @@
 /area/vtm/interior/graveyard)
 "Df" = (
 /obj/structure/closet/crate/freezer/blood{
-	name = "vampire blood freezer"
+	name = "吸血鬼血液冷冻柜"
 	},
 /obj/item/reagent_containers/blood/vitae,
 /obj/item/reagent_containers/blood/vitae,
@@ -2518,7 +2531,7 @@
 /area/vtm/interior/techshop)
 "Od" = (
 /obj/structure/closet/crate/freezer/blood{
-	name = "blue blood freezer"
+	name = "蓝血冷冻柜"
 	},
 /obj/item/reagent_containers/blood/vitae,
 /obj/item/reagent_containers/blood/vitae,
@@ -2649,7 +2662,7 @@
 /obj/structure/transport/linear/public,
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "DebugElevator4";
-	preset_destination_names = list("2" = "Lower", "3" = "Upper")
+	preset_destination_names = list("2" = "下层", "3" = "上层")
 	},
 /obj/effect/landmark/transport/transport_id{
 	specific_transport_id = "DebugElevator4"
@@ -2750,7 +2763,7 @@
 "QR" = (
 /obj/machinery/elevator_control_panel/directional/north{
 	linked_elevator_id = "DebugElevator";
-	preset_destination_names = list("2" = "Lower", "3" = "Upper")
+	preset_destination_names = list("2" = "下层", "3" = "上层")
 	},
 /obj/structure/railing/corner/end{
 	dir = 8
@@ -2840,7 +2853,7 @@
 "Si" = (
 /obj/structure/table,
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
+	desc = "不知怎么回事，它能把东西煮熟。";
 	pixel_x = -3;
 	pixel_y = 5
 	},
@@ -4380,7 +4393,7 @@ pN
 Id
 Id
 Id
-Id
+aK
 xZ
 Id
 Id
@@ -5541,7 +5554,7 @@ uH
 GH
 GH
 Fg
-GH
+hR
 GH
 Fg
 sX
